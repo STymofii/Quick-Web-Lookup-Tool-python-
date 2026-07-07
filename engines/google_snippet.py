@@ -7,6 +7,6 @@ def search(query: str, language_code: str = "ru") -> str:
     params = {"q": query, "hl": language_code}
     
     html = scraper.fetch_html(url, params)
-    
+
     selectors = [".hgKElc", ".LGOjhe", ".Z0LcW"]
     return scraper.parse_multiple_selectors(html, selectors)
