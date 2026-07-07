@@ -7,3 +7,5 @@ benchmark_results.csv
 .DS_Store
 .vscode/
 .idea/
+.env
+/.vs
