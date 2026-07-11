@@ -9,7 +9,8 @@ from base_scraper import BaseScraper
 #from engines import ddg_groq_engine
 #from engines import wolfram_engine
 #from engines import google_snippet
-from engines import ddg_snippet
+#from engines import ddg_snippet
+from engines import qwant_snippet
 
 def run_single_engine_test(name: str, search_func: Callable[[str, str], None], query: str):
     start_time = time.time()
@@ -31,7 +32,8 @@ def run_engines_test():
         #("Groq", groq_snippet.search),
         #("DuckDuckGo-Groq", ddg_groq_snippet.search),
         #("Wolfram", wolfram_engine.search),
-        ("DuckDuckGo", ddg_snippet.search),
+        # ("DuckDuckGo", ddg_snippet.search),
+        ("Qwant", qwant_snippet.search)
 
     ]
     while True:
