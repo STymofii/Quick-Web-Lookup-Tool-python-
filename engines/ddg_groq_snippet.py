@@ -1,0 +1,43 @@
+import os
+from groq import Groq
+from ddgs import DDGS
+
+def get_web_search_results(query: str) -> str:
+    try:
+        with DDGS() as ddgs:
+            results = list(ddgs.text(query, max_results=3))
+            if not results:
+                return ""
+            context = "\n".join([f"{r['title']}: {r['body']}" for r in results])
+            return context
+    except Exception:
+        return ""
+
+def search(query: str, language_code: str = "ru") -> str:
+    if not os.environ.get("GROQ_API_KEY"):
+        return "Error: not found GROQ_API_KEY in .env"
+
+    web_context = get_web_search_results(query)
+    print(f"DDG Search result: {web_context}")
+    
+    if not web_context:
+        web_context = "No data found online. Answer based on your knowledge."
+
+    try:
+        client = Groq()
+        
+        system_prompt = f"You are a data verifier. Your only task is to read the provided context from the internet and extract from it the shortest, most precise answer to the user's question. Answer strictly in {language_code}. No greetings, no politeness, no unnecessary words. Just the bare facts (number, name, date). If there are contradictions in the context, choose the most recent or authoritative fact. Try to extract data from context as accurately as possible if available."
+
+        completion = client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Вопрос: {query}"}
+            ],
+            temperature=0.0
+        )
+        
+        return completion.choices[0].message.content.strip()
+        
+    except Exception as e:
+        return f"Ошибка Groq: {e}"
