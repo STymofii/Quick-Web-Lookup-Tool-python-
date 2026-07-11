@@ -8,5 +8,6 @@ def search(query: str, language_code: str = "ru") -> str:
     
     html = scraper.fetch_html(url, params)
     
-    selectors = [".result__snippet"]
+    #selectors = [".result__snippet"]
+    selectors = [".d3sXpYMmDKnqC90dk5P7", ".result__snippet"]
     return scraper.parse_multiple_selectors(html, selectors)
