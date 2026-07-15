@@ -1,13 +1,16 @@
+import urllib.parse
 from base_scraper import BaseScraper
+import json
 
 
 def search(query: str, language_code: str = "ru") -> str:
     scraper = BaseScraper()
-    url = "https://html.duckduckgo.com/html/"
-    params = {"q": query, "kl": f"{language_code}-{language_code}"}
+    url = f"https://api.duckduckgo.com/?q={urllib.parse.quote_plus(query)}&format=json&no_html=1"
     
-    html = scraper.fetch_html(url, params)
-    
-    #selectors = [".result__snippet"]
-    selectors = [".d3sXpYMmDKnqC90dk5P7", ".result__snippet"]
-    return scraper.parse_multiple_selectors(html, selectors)
+    answer = scraper.fetch_json(url)
+    if answer.get("Answer"):
+       return(answer["Answer"])
+    elif answer.get("AbstractText"):
+        return(answer["AbstractText"])
+
+    return answer

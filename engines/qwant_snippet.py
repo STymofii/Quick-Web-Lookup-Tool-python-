@@ -28,4 +28,4 @@ def search(query: str, language_code: str = "ru") -> str:
             first_item = items[0]
             return first_item.get("desc", "").strip()
 
-    return "Nothing was found"
+    return ""

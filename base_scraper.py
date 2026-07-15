@@ -18,22 +18,28 @@ class BaseScraper:
             "Sec-Fetch-Site": "same-site"
         }
 
-    def fetch_html(self, url, params):
+    def fetch_html(self, url, params = {}):
         time.sleep(self.delay)
         try:
             session = requests.Session()
-            res = session.get(url, params=params, headers=self.headers, timeout=10)
-            return res.text if res.status_code == 200 else ""
+            res = session.get(url, params=params, headers=self.headers, timeout=(5, 10))
+            # res = requests.get(
+            #     url,
+            #     impersonate="chrome",
+            #     timeout=5,
+            #     headers={"Accept-Language": "ru,en;q=0.9"},
+            # )
+            return res.text if res.status_code == 200 else res.status_code
         except:
             return ""
         
-    def fetch_json(self, url, params):
+    def fetch_json(self, url, params = {}):
         time.sleep(self.delay)
         try:
             session = requests.Session()
-            res = session.get(url, params=params, headers=self.headers, timeout=10)
+            res = session.get(url, params=params, headers=self.headers, timeout=(5, 10))
             print(res.status_code)
-            return res.json if res.status_code == 200 else {}
+            return res.json() if res.status_code == 200 else {}
         except:
             return {}
 

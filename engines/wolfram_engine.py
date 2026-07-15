@@ -9,7 +9,7 @@ def search(query: str, language_code: str = "ru") -> str:
         return "Error: not found WOLFRAM_TOKEN in .env"
 
     if language_code != "en":
-        en_query = translators.translate_text(
+            en_query = translators.translate_text(
             query, from_language=language_code, to_language="en"
         )
     else:

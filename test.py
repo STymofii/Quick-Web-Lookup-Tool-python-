@@ -10,7 +10,10 @@ from base_scraper import BaseScraper
 #from engines import wolfram_engine
 #from engines import google_snippet
 #from engines import ddg_snippet
-from engines import qwant_snippet
+#from engines import qwant_snippet
+#from engines import brave_snippet
+from engines import serper_engine
+
 
 def run_single_engine_test(name: str, search_func: Callable[[str, str], None], query: str):
     start_time = time.time()
@@ -32,16 +35,20 @@ def run_engines_test():
         #("Groq", groq_snippet.search),
         #("DuckDuckGo-Groq", ddg_groq_snippet.search),
         #("Wolfram", wolfram_engine.search),
-        # ("DuckDuckGo", ddg_snippet.search),
-        ("Qwant", qwant_snippet.search)
+        #("DuckDuckGo", ddg_snippet.search),
+        #("Qwant", qwant_snippet.search),
+        #("Brave", brave_snippet.search),
+        ("Serper", serper_engine.search),
 
     ]
     while True:
         query = input("Your question: ") 
+        query = "Trump age"
         if not query:
             break
         for name, search_func in engines:
             run_single_engine_test(name, search_func, query) 
+        break
 
 
 def test():
