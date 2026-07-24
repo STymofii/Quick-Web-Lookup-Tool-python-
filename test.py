@@ -11,8 +11,10 @@ from base_scraper import BaseScraper
 #from engines import google_snippet
 #from engines import ddg_snippet
 #from engines import qwant_snippet
-#from engines import brave_snippet
-from engines import serper_engine
+#from engines import brave_snippet, google_custom_search_engine
+#from engines import serper_engine
+#from engines import searchapi_engine
+from engines import google_custom_search_engine
 
 
 def run_single_engine_test(name: str, search_func: Callable[[str, str], None], query: str):
@@ -38,12 +40,14 @@ def run_engines_test():
         #("DuckDuckGo", ddg_snippet.search),
         #("Qwant", qwant_snippet.search),
         #("Brave", brave_snippet.search),
-        ("Serper", serper_engine.search),
+        #("Serper", serper_engine.search),
+        #("SearchAPI", searchapi_engine.search),
+        ("GoogleCustomSearch", google_custom_search_engine.search)
 
     ]
     while True:
-        query = input("Your question: ") 
-        query = "Trump age"
+        #query = input("Your question: ") 
+        query = "Elon Musk Born Country"
         if not query:
             break
         for name, search_func in engines:

@@ -19,5 +19,6 @@ def search(query: str, language_code: str = "ru") -> str:
     }
 
     answer = requests.post(url, headers=headers, data=payload).json()
+    
 
     return(answer["organic"][0]["snippet"])
