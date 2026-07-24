@@ -13,3 +13,5 @@ Search engines:
 | Brave | - | - | Has a strong anti-bot system |
 | Serper | + | 2500 requests | Excellent search results |
 | GoogleCustomSearch | - | - | Very difficult to use |
+| Groq | + | - | LLM, doesn't meet the project requirements. Sometimes starts making up answers. |
+| DDG + Groq | + | - | Searching in DDG with results sent to Groq. It produces good, clear answers. |
