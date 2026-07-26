@@ -18,15 +18,12 @@ def search(query: str, language_code: str = "ru") -> str:
     
     try:
         data = scraper.fetch_json(url, params)
+        print(data)
         
         if "items" in data and len(data["items"]) > 0:
             return data["items"][0].get("snippet", "")
             
         return ""
         
-    except requests.exceptions.HTTPError as e:
-        if response.status_code == 429:
-            return "Konchilis zaprosy na sutki"
-        return f"API Error: {e}"
     except Exception as e:
         return f"Error: {e}"

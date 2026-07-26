@@ -14,7 +14,8 @@ from base_scraper import BaseScraper
 #from engines import brave_snippet, google_custom_search_engine
 #from engines import serper_engine
 #from engines import searchapi_engine
-from engines import google_custom_search_engine
+#from engines import google_custom_search_engine
+from engines import ddgs_engine
 
 
 def run_single_engine_test(name: str, search_func: Callable[[str, str], None], query: str):
@@ -42,12 +43,13 @@ def run_engines_test():
         #("Brave", brave_snippet.search),
         #("Serper", serper_engine.search),
         #("SearchAPI", searchapi_engine.search),
-        ("GoogleCustomSearch", google_custom_search_engine.search)
+        #("GoogleCustomSearch", google_custom_search_engine.search),
+        ("DDGS", ddgs_engine.search)
 
     ]
     while True:
         #query = input("Your question: ") 
-        query = "Elon Musk Born Country"
+        query = "Trump age"
         if not query:
             break
         for name, search_func in engines:
