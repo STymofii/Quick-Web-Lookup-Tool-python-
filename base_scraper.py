@@ -38,7 +38,6 @@ class BaseScraper:
         try:
             session = requests.Session()
             res = session.get(url, params=params, headers=self.headers, timeout=(5, 10))
-            print(res.status_code)
             return res.json() if res.status_code == 200 else {}
         except:
             return {}

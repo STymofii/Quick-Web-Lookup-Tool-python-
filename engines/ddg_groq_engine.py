@@ -31,7 +31,7 @@ def search(query: str, language_code: str = "ru") -> str:
         return "Error: not found GROQ_API_KEY in .env"
 
     web_context = get_web_search_results(query)
-    print(f"DDG Search result: {web_context}")
+    #print(f"DDG Search result: {web_context}")
     
     if not web_context:
         web_context = "No data found online. Answer based on your knowledge."
