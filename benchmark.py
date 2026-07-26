@@ -2,8 +2,14 @@ import csv
 import time
 from test_data import TEST_CASES
 
-from engines import google_snippet
-from engines import ddg_snippet
+from dotenv import load_dotenv; load_dotenv()
+
+from engines import groq_engine
+from engines import ddg_groq_engine
+from engines import wolfram_engine
+from engines import serper_engine
+#from engines import searchapi_engine
+from engines import ddgs_engine
 
 
 def iter_queries():
@@ -15,8 +21,11 @@ def iter_queries():
 
 def run_benchmark():
     engines = [
-        ("Google", google_snippet.search), 
-        ("DuckDuckGo", ddg_snippet.search)
+        # ("Groq", groq_engine.search),
+        # ("DuckDuckGo-Groq", ddg_groq_engine.search),
+        # ("Wolfram", wolfram_engine.search),
+        # ("DDGS", ddgs_engine.search)
+        ("Serper", serper_engine.search)
     ]
 
     report = []
