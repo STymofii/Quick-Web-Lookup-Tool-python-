@@ -5,6 +5,19 @@ from base_scraper import BaseScraper
 
 
 def search(query: str, language_code: str = "ru") -> str:
+    """Search in Wolfram Alpha.
+
+    Works well, producing acceptable results with limits 2000 requests / month.
+
+    Args:
+        query (str): The search phrase or question to query (e.g., "Trump age").
+        language_code (str, optional): Two-letter ISO language code for the request.
+
+    Returns:
+        str: Extracted snippet text from the top search results, or an empty string
+            if no matching selectors or content are found.
+    """
+
     if not os.environ.get("WOLFRAM_TOKEN"):
         return "Error: not found WOLFRAM_TOKEN in .env"
 

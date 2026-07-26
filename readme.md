@@ -7,9 +7,10 @@ Search engines:
 |---|:---:|:---:|---|
 | DDGS | + | - | The official DuckDuckGo Search library. It allows you to easily get answers without restrictions. It produces quite reasonable results. |
 | Serper | + | 2500 requests | Excellent search results |
-| Wolfram Alpha | + | 2000 requests / month | It works great and produces results|
+| Wolfram Alpha | + | 2000 requests / month | It works great and produces results |
+| SearchAPI | + | 100 requests / month | Good search results |
 | DDG snippet | - | - |It's hard to get results specifically in the form of a short snippet|
-| Google snippet | - | - | Very difficult to get a short snippet, difficult to parsing |
+| Google snippet | - | - | Very difficult to get a short snippet, difficult to parsing, anti-bot system |
 | DDG API | - | - | API is not working |
 | Qwant | - | - | Has a strong anti-bot system |
 | Brave | - | - | Has a strong anti-bot system |

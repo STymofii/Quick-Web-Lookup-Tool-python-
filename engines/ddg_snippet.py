@@ -4,6 +4,19 @@ import json
 
 
 def search(query: str, language_code: str = "ru") -> str:
+    """Search with DuckDuckGo API.
+
+    It doesn't work and returns json without values.
+
+    Args:
+        query (str): The search phrase or question to query (e.g., "Trump age").
+        language_code (str, optional): Two-letter ISO language code for the request.
+
+    Returns:
+        str: Extracted snippet text from the top search results, or an empty string
+            if no matching selectors or content are found.
+    """
+
     scraper = BaseScraper()
     url = f"https://api.duckduckgo.com/?q={urllib.parse.quote_plus(query)}&format=json&no_html=1"
     

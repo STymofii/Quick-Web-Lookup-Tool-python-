@@ -14,6 +14,19 @@ def get_web_search_results(query: str) -> str:
         return ""
 
 def search(query: str, language_code: str = "ru") -> str:
+    """Search on DDGS library and transfer search results to LLM Groq.
+
+    Works well, producing acceptable results without limitations, but LLM does not meet the project requirements
+
+    Args:
+        query (str): The search phrase or question to query (e.g., "Trump age").
+        language_code (str, optional): Two-letter ISO language code for the request.
+
+    Returns:
+        str: LLM answer text from the top search results, or an empty string
+            if no matching selectors or content are found.
+    """
+
     if not os.environ.get("GROQ_API_KEY"):
         return "Error: not found GROQ_API_KEY in .env"
 
