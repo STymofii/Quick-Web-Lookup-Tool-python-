@@ -17,3 +17,5 @@ Search engines:
 | GoogleCustomSearch | - | - | Very difficult to use |
 | Groq | + | - | LLM, doesn't meet the project requirements. Sometimes starts making up answers. |
 | DDG + Groq | + | - | Searching in DDG with results sent to Groq. It produces good, clear answers. |
+| GPT-4o | + | - | LLM, gives excellent short answers to all questions, has no limitations. |
+
