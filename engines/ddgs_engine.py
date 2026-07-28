@@ -1,5 +1,6 @@
 from ddgs import DDGS
 
+
 def search(query: str, language_code: str = "ru") -> str:
     """Search with DDGS library.
 

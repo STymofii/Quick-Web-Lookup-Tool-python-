@@ -6,12 +6,14 @@ from dotenv import load_dotenv; load_dotenv()
 
 from base_scraper import BaseScraper
 
-from engines import groq_engine
-from engines import ddg_groq_engine
-from engines import wolfram_engine
-from engines import serper_engine
-from engines import searchapi_engine
-from engines import ddgs_engine
+# from engines import groq_engine
+# from engines import ddg_groq_engine
+# from engines import wolfram_engine
+# from engines import serper_engine
+# from engines import searchapi_engine
+# from engines import ddgs_engine
+from engines import gpt_engine
+
 
 
 def run_single_engine_test(name: str, search_func: Callable[[str, str], None], query: str):
@@ -29,16 +31,17 @@ def run_single_engine_test(name: str, search_func: Callable[[str, str], None], q
             
     #print(f"  {name}: {status} - {answer} ({elapsed:.2f}s)")
     if answer and answer != "[Пусто]":
-        print(f"    {name} ({elapsed:.2f}s):\n{answer[:80] + '...' if len(answer) > 80 else answer}")
+        print(f"    {name} ({elapsed:.2f}s):\n\t → {answer[:80] + '...' if len(answer) > 80 else answer}")
 
 def run_engines_test():
     engines = [
-        ("Groq", groq_engine.search),
-        ("DuckDuckGo-Groq", ddg_groq_engine.search),
-        ("Wolfram", wolfram_engine.search),
-        ("Serper", serper_engine.search),
-        ("SearchAPI", searchapi_engine.search),
-        ("DDGS", ddgs_engine.search),
+        # ("Groq", groq_engine.search),
+        # ("DuckDuckGo-Groq", ddg_groq_engine.search),
+        # ("Wolfram", wolfram_engine.search),
+        # ("Serper", serper_engine.search),
+        # ("SearchAPI", searchapi_engine.search),
+        # ("DDGS", ddgs_engine.search),
+        ("GPT-4o", gpt_engine.search)
 
     ]
     while True:

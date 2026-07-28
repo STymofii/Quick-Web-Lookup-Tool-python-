@@ -4,12 +4,13 @@ from test_data import TEST_CASES
 
 from dotenv import load_dotenv; load_dotenv()
 
-from engines import groq_engine
-from engines import ddg_groq_engine
-from engines import wolfram_engine
-from engines import serper_engine
-#from engines import searchapi_engine
-from engines import ddgs_engine
+# from engines import groq_engine
+# from engines import ddg_groq_engine
+# from engines import wolfram_engine
+# from engines import serper_engine
+# from engines import searchapi_engine
+# from engines import ddgs_engine
+from engines import gpt_engine
 
 
 def iter_queries():
@@ -25,7 +26,8 @@ def run_benchmark():
         # ("DuckDuckGo-Groq", ddg_groq_engine.search),
         # ("Wolfram", wolfram_engine.search),
         # ("DDGS", ddgs_engine.search)
-        ("Serper", serper_engine.search)
+        # ("Serper", serper_engine.search)
+        ("GPT-4o-mini", gpt_engine.search)
     ]
 
     report = []
@@ -57,9 +59,10 @@ def run_benchmark():
             
             print(f"  {name}: {status} ({elapsed:.2f}s)")
             if answer and answer != "[Пусто]":
-                print(f"    → {answer[:80]}...")
+                print(f"    → {answer[:80] + '...' if len(answer) > 80 else answer}")
 
         report.append(row)
+        #time.sleep(2)
 
     if not report:
         print("\nНет данных для записи отчёта")
