@@ -1,38 +1,44 @@
-import urllib.parse
 import os
 from base_scraper import BaseScraper
-import requests
 import json
 
+from engines.engine import Engine
 
-def search(query: str, language_code: str = "ru") -> str:
-    """Search in google with SearchAPI.
+class SearchAPI_Engine(Engine):
+    def __init__(self, api_key):
+        """
+        Args:
+            api_key (str): os.environ.get(SEARCHAPI_API_KEY).
+        """
+        self.api_key=api_key
 
-    Works well, producing acceptable results with limits 100 requests/month
+    def search(self, query: str, language_code: str = "ru") -> str:
+        """Search in google with SearchAPI.
 
-    Args:
-        query (str): The search phrase or question to query (e.g., "Trump age").
-        language_code (str, optional): Two-letter ISO language code for the request.
+        Works well, producing acceptable results with limits 100 requests/month
 
-    Returns:
-        str: Extracted snippet text from the top search results, or an empty string
-            if no matching selectors or content are found.
-    """
+        Args:
+            query (str): The search phrase or question to query (e.g., "Trump age").
+            language_code (str, optional): Two-letter ISO language code for the request.
 
-    scraper = BaseScraper()
-    url = "https://www.searchapi.io/api/v1/search"
+        Returns:
+            str: Extracted snippet text from the top search results, or an empty string
+                if no matching selectors or content are found.
+        """
 
-    params = {
-        "engine": "google",
-        "q": query,
-        "api_key": os.environ.get("SEARCHAPI_API_KEY"),
-    }
+        scraper = BaseScraper()
+        url = "https://www.searchapi.io/api/v1/search"
+
+        params = {
+            "engine": "google",
+            "q": query,
+            "api_key": self.api_key,
+        }
 
     
-    answer = scraper.fetch_json(url, params)
-    #print(json.dumps(answer, indent=2))
+        answer = scraper.fetch_json(url, params)
 
-    if answer.get("organic_results"):
-        return(answer["organic_results"][0]["snippet"])
-    return ""
+        if answer.get("organic_results"):
+            return(answer["organic_results"][0]["snippet"])
+        return ""
 
