@@ -26,3 +26,13 @@ class BraveEngine(Engine):
 
         selectors = [".infobox-description", ".legend-snippet", ".snippet-description"]
         return scraper.parse_multiple_selectors(html, selectors)
+
+# ---- module-level interface required by the task ----
+_instance = None
+
+def search(query: str, language_code: str = "ru") -> str:
+    """Module-level wrapper."""
+    global _instance
+    if _instance is None:
+        _instance = BraveEngine()
+    return _instance.search(query, language_code)

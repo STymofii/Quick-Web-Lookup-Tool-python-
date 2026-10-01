@@ -1,0 +1,1550 @@
+Running benchmark: 100 queries x 10 engines
+  - DDGS
+  - DDG-HTML
+  - DDG-InstantAnswer
+  - DDG-SearchAssist
+  - DDG-Snippet-deprecated
+  - GoogleSnippet
+  - Brave
+  - Startpage
+  - duck.ai
+  - GPT-4o
+======================================================================
+
+[1/100] [География] Столица Исландии
+  DDGS: OK (0.41s)
+  DDG-HTML: OK (0.79s)
+  DDG-InstantAnswer: OK (0.33s)
+  DDG-SearchAssist: OK (2.65s)
+  DDG-Snippet-deprecated: OK (0.27s)
+  GoogleSnippet: OK (0.26s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.54s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=0540db71-3f33-4367-b910-3e403f548518'
+  GPT-4o: OK (0.44s)
+
+[2/100] [География] Самая длинная река в мире
+  DDGS: OK (0.88s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.49s)
+  DDG-SearchAssist: OK (2.57s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.47s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=a3e4832a-2feb-4151-87ab-1372948b6b97'
+  GPT-4o: OK (0.37s)
+
+[3/100] [География] Население Токио
+  DDGS: OK (0.37s)
+  DDG-HTML: OK (0.72s)
+  DDG-InstantAnswer: OK (0.37s)
+  DDG-SearchAssist: OK (2.80s)
+  DDG-Snippet-deprecated: OK (0.24s)
+  GoogleSnippet: OK (0.26s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.57s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=3f742e27-7e04-43ca-bc73-2c04b5a410af'
+  GPT-4o: OK (0.35s)
+
+[4/100] [География] Площадь Ватикана
+  DDGS: OK (1.94s)
+  DDG-HTML: OK (0.77s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.27s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.84s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.59s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=463adf3f-1980-4a8d-8d0d-1ebb476e2357'
+  GPT-4o: OK (0.32s)
+
+[5/100] [География] Высота горы Эверест
+  DDGS: OK (1.95s)
+  DDG-HTML: OK (0.78s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (1.93s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.17s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.25s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=db3a2d34-4334-47a4-bec8-4dd19b62ef0e'
+  GPT-4o: OK (0.36s)
+
+[6/100] [География] В какой стране находится Мачу-Пикчу
+  DDGS: OK (1.97s)
+  DDG-HTML: OK (0.76s)
+  DDG-InstantAnswer: OK (2.07s)
+  DDG-SearchAssist: OK (1.52s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.24s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.62s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=0421b240-5f95-4d45-a0cc-3e231c3067ff'
+  GPT-4o: OK (0.37s)
+
+[7/100] [География] Глубина Байкала
+  DDGS: OK (1.36s)
+  DDG-HTML: OK (0.77s)
+  DDG-InstantAnswer: OK (2.45s)
+  DDG-SearchAssist: OK (2.18s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.15s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.69s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9ad04905-0d02-4b8e-bb48-2874d9216e35'
+  GPT-4o: OK (0.37s)
+
+[8/100] [География] С кем граничит Португалия
+  DDGS: OK (1.36s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (1.59s)
+  DDG-SearchAssist: OK (1.46s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.23s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9b6ed4ec-6aea-4399-b96c-89a41c2db6a6'
+  GPT-4o: OK (0.35s)
+
+[9/100] [География] Самый большой остров в мире
+  DDGS: OK (1.31s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] error sending request for url (https://search.yahoo.com/search;_ylt=qhAvpuEC8bgVCpILbhQGvWUH;_ylu=3y7p9ANwt1W4GyJB9ZARucCYbXvMil6D0dwFPGMBn2DXJbI?p=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9+%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5) > operation timed out
+  DDG-InstantAnswer: OK (6.19s)
+  DDG-SearchAssist: OK (1.71s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.29s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.44s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9f05ae13-04b0-4a0a-b8e6-0fc6c83b9af4'
+  GPT-4o: OK (0.36s)
+
+[10/100] [География] В каком океане находятся Сейшелы
+  DDGS: OK (1.26s)
+  DDG-HTML: OK (0.76s)
+  DDG-InstantAnswer: OK (2.04s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.05s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.21s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=00655d00-8b06-4933-bbc1-d26b7291b90b'
+  GPT-4o: OK (0.35s)
+
+[11/100] [Личности (Биография)] Кто такой Илон Маск
+  DDGS: OK (2.29s)
+  DDG-HTML: OK (0.87s)
+  DDG-InstantAnswer: OK (1.49s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.49s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.24s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.65s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=32c78a41-9b4b-4511-9933-dc4e4c3297ac'
+  GPT-4o: OK (0.35s)
+
+[12/100] [Личности (Биография)] Дата рождения Альберта Эйнштейна
+  DDGS: OK (2.57s)
+  DDG-HTML: OK (0.73s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.84s)
+  DDG-SearchAssist: OK (2.36s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.14s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=a694d200-6c75-4414-9639-eefea2d4f235'
+  GPT-4o: OK (0.33s)
+
+[13/100] [Личности (Биография)] Настоящее имя Фредди Меркьюри
+  DDGS: OK (5.90s)
+  DDG-HTML: OK (0.90s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.31s)
+  DDG-SearchAssist: OK (1.08s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.62s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=89f12c2b-ffef-4b5c-bc4c-ef01641755a0'
+  GPT-4o: OK (0.36s)
+
+[14/100] [Личности (Биография)] Кем был Леонардо да Винчи
+  DDGS: OK (2.73s)
+  DDG-HTML: OK (0.90s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.49s)
+  DDG-SearchAssist: OK (1.82s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.33s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=b6c02a64-c6e7-40cb-9ea1-e8e969133037'
+  GPT-4o: OK (0.32s)
+
+[15/100] [Личности (Биография)] Кто основал Microsoft
+  DDGS: OK (2.21s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (1.99s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.71s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.18s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=5184e2af-16cb-4574-b7d3-6674d5e3f024'
+  GPT-4o: OK (0.38s)
+
+[16/100] [Личности (Биография)] Где родился Наполеон
+  DDGS: OK (0.96s)
+  DDG-HTML: OK (0.79s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.01s)
+  DDG-SearchAssist: OK (2.39s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.42s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=71a0cef3-1d58-4426-89e7-15c5de8f1032'
+  GPT-4o: OK (0.35s)
+
+[17/100] [Личности (Биография)] Кто написал Гамлета
+  DDGS: OK (6.15s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (1.22s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.48s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.29s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.47s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9ebe0c6c-a3f9-4d3a-90b9-01ddd615f405'
+  GPT-4o: OK (0.38s)
+
+[18/100] [Личности (Биография)] Первый человек в космосе
+  DDGS: OK (1.46s)
+  DDG-HTML: OK (0.77s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.88s)
+  DDG-SearchAssist: OK (2.29s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.24s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.48s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=25562fb8-9ef2-4c7c-952a-26f4ea39bd4f'
+  GPT-4o: OK (0.35s)
+
+[19/100] [Личности (Биография)] Кто открыл периодическую таблицу
+  DDGS: OK (1.35s)
+  DDG-HTML: OK (0.68s)
+  DDG-InstantAnswer: OK (2.41s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.23s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.44s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=3cf9b20c-dc9e-4243-b165-8d075eb491b5'
+  GPT-4o: OK (0.34s)
+
+[20/100] [Личности (Биография)] Действующий президент Франции
+  DDGS: OK (2.02s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.45s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.32s)
+  DDG-Snippet-deprecated: OK (0.28s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.42s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=44c3dfdf-d469-4811-a257-81188c167914'
+  GPT-4o: OK (0.37s)
+
+[21/100] [Наука и Техника] Скорость света в вакууме
+  DDGS: OK (0.36s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (0.34s)
+  DDG-SearchAssist: OK (6.65s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.24s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.33s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=324bfb32-13c0-4b6c-b854-2f1243f0651d'
+  GPT-4o: OK (0.35s)
+
+[22/100] [Наука и Техника] Что такое фотосинтез
+  DDGS: OK (1.31s)
+  DDG-HTML: OK (0.77s)
+  DDG-InstantAnswer: OK (2.60s)
+  DDG-SearchAssist: OK (1.44s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.28s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.47s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=a23a363f-767e-4d04-86b3-b589b4cf09d0'
+  GPT-4o: OK (0.37s)
+
+[23/100] [Наука и Техника] Формула воды
+  DDGS: OK (0.29s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (0.33s)
+  DDG-SearchAssist: OK (2.53s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.72s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=ac775bbd-4ae2-46c8-81ec-40db5bc9a69b'
+  GPT-4o: OK (0.33s)
+
+[24/100] [Наука и Техника] Число Пи до 5 знака
+  DDGS: OK (2.40s)
+  DDG-HTML: OK (0.67s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.16s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.26s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.35s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=21bf0a52-1179-4e05-bdec-4f785dfde58f'
+  GPT-4o: OK (0.38s)
+
+[25/100] [Наука и Техника] Расстояние до Луны
+  DDGS: OK (1.20s)
+  DDG-HTML: OK (0.74s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.65s)
+  DDG-SearchAssist: OK (2.32s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.53s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=f939f092-31c0-48d1-ac8a-1918d0225dfd'
+  GPT-4o: OK (0.36s)
+
+[26/100] [Наука и Техника] Температура кипения золота
+  DDGS: OK (2.50s)
+  DDG-HTML: OK (0.72s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.38s)
+  DDG-SearchAssist: OK (1.00s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.22s)
+  Brave: OK (0.15s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.56s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=fbdf8ee4-7e2c-4191-8c17-eb17923e8a8d'
+  GPT-4o: OK (0.34s)
+
+[27/100] [Наука и Техника] Сколько планет в солнечной системе
+  DDGS: OK (3.01s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (1.71s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.83s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.58s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=cc6c2c07-5cab-4b60-bc39-23b43f9738f3'
+  GPT-4o: OK (0.36s)
+
+[28/100] [Наука и Техника] Закон всемирного тяготения
+  DDGS: OK (0.35s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (0.31s)
+  DDG-SearchAssist: OK (3.59s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.46s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=1e7ffbe8-344c-4a12-9c04-8c221149c003'
+  GPT-4o: OK (0.43s)
+
+[29/100] [Наука и Техника] Что такое блокчейн
+  DDGS: OK (1.35s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (7.39s)
+  DDG-SearchAssist: OK (1.08s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.31s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.36s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=6b3d14c8-2083-4073-ab45-ca6460d7f455'
+  GPT-4o: OK (0.35s)
+
+[30/100] [Наука и Техника] Сколько зубов у взрослого человека
+  DDGS: OK (1.37s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (2.13s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.42s)
+  DDG-Snippet-deprecated: OK (0.25s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.42s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=d5fbf833-568a-4685-ba4a-5ad36ad3226b'
+  GPT-4o: OK (0.35s)
+
+[31/100] [История] Дата начала Второй мировой войны
+  DDGS: OK (3.37s)
+  DDG-HTML: OK (0.84s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.71s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.93s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.41s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=84e0ecd2-c72a-4ad5-90f1-4e4d38270259'
+  GPT-4o: OK (0.38s)
+
+[32/100] [История] Когда распался СССР
+  DDGS: OK (0.98s)
+  DDG-HTML: OK (0.76s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (3.16s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.58s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=8d7b2d73-6b12-4f01-9daa-9fe3d691f7ce'
+  GPT-4o: OK (0.35s)
+
+[33/100] [История] Кто построил пирамиды
+  DDGS: OK (3.68s)
+  DDG-HTML: OK (0.78s)
+  DDG-InstantAnswer: OK (2.55s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.11s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.21s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.30s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=f62b11d9-5152-40b5-a6db-ee5b6c56f91b'
+  GPT-4o: OK (0.25s)
+
+[34/100] [История] Год основания Рима
+  DDGS: OK (1.93s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (2.55s)
+  DDG-SearchAssist: OK (1.68s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.22s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.66s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=e72324ff-33ad-435c-8394-1b4a716eca63'
+  GPT-4o: OK (0.28s)
+
+[35/100] [История] Когда произошло крещение Руси
+  DDGS: OK (1.67s)
+  DDG-HTML: OK (0.82s)
+  DDG-InstantAnswer: OK (1.64s)
+  DDG-SearchAssist: OK (1.16s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.26s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.43s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=82c1f76a-7370-429c-b6c6-6990c3141aaf'
+  GPT-4o: OK (0.34s)
+
+[36/100] [История] Французская революция год
+  DDGS: OK (0.32s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (0.28s)
+  DDG-SearchAssist: OK (1.41s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=66a4b8e5-fb66-47f4-a38a-8ab02c46ff76'
+  GPT-4o: OK (0.35s)
+
+[37/100] [История] Кто был первым императором Китая
+  DDGS: OK (1.74s)
+  DDG-HTML: OK (0.74s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (6.27s)
+  DDG-SearchAssist: OK (1.42s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.10s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=b201bc28-9d40-4456-a840-e86c3407c7c0'
+  GPT-4o: OK (0.37s)
+
+[38/100] [История] Когда пала Византийская империя
+  DDGS: OK (1.06s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (1.37s)
+  DDG-SearchAssist: OK (2.45s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.44s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=8c8ad716-f253-43e6-9c98-c71c3c39f644'
+  GPT-4o: OK (0.35s)
+
+[39/100] [История] Открытие Америки Колумбом дата
+  DDGS: OK (1.35s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (1.34s)
+  DDG-SearchAssist: OK (2.39s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.33s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=6f5e886b-c4a1-4703-8e1e-8c1f912b5ac3'
+  GPT-4o: OK (0.37s)
+
+[40/100] [История] Сколько длилась Столетняя война
+  DDGS: OK (3.08s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (1.78s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.74s)
+  DDG-Snippet-deprecated: OK (0.29s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.35s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=4cbe1843-4319-4af7-bb9c-ea329f9d652e'
+  GPT-4o: OK (0.39s)
+
+[41/100] [Математика и Расчеты] Квадратный корень из 144
+  DDGS: OK (6.44s)
+  DDG-HTML: OK (0.65s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.74s)
+  DDG-SearchAssist: OK (1.50s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.55s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=092acb7a-438a-48df-b5bd-b5bdc323bdbc'
+  GPT-4o: OK (0.36s)
+
+[42/100] [Математика и Расчеты] 2+2*2
+  DDGS: OK (0.35s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (0.32s)
+  DDG-SearchAssist: OK (2.48s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.48s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=434c367d-d1a2-4724-9606-9141afc8db73'
+  GPT-4o: OK (0.33s)
+
+[43/100] [Математика и Расчеты] 15% от 200
+  DDGS: OK (0.87s)
+  DDG-HTML: OK (0.68s)
+  DDG-InstantAnswer: OK (1.70s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.28s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.29s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.26s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=83bfdf93-eccf-4ca2-a75c-193562b16cb9'
+  GPT-4o: OK (0.33s)
+
+[44/100] [Математика и Расчеты] Сколько секунд в сутках
+  DDGS: OK (2.71s)
+  DDG-HTML: OK (0.68s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (1.73s)
+  DDG-SearchAssist: OK (0.96s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.29s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.22s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=2dd69414-b0b6-4e2f-8604-d5f8faaf7e9d'
+  GPT-4o: OK (0.36s)
+
+[45/100] [Математика и Расчеты] Синус 90 градусов
+  DDGS: OK (6.61s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (1.16s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.98s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.46s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=070a57ad-758c-4717-8876-9b4727a58765'
+  GPT-4o: OK (0.33s)
+
+[46/100] [Математика и Расчеты] Площадь круга формула
+  DDGS: OK (1.92s)
+  DDG-HTML: OK (0.82s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.68s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.26s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.30s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=42749956-8930-4e64-9361-9a064ae87731'
+  GPT-4o: OK (0.38s)
+
+[47/100] [Математика и Расчеты] Чему равно число е
+  DDGS: OK (0.88s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.38s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.81s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.22s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=852390fe-2fca-43e8-9d7b-69c66ef578e1'
+  GPT-4o: OK (0.36s)
+
+[48/100] [Математика и Расчеты] 1000 разделено на 8
+  DDGS: OK (1.63s)
+  DDG-HTML: OK (0.77s)
+  DDG-InstantAnswer: OK (2.02s)
+  DDG-SearchAssist: OK (1.88s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.46s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=0f782ffb-ddf8-4f03-b201-f3bc8d75edc5'
+  GPT-4o: OK (0.37s)
+
+[49/100] [Математика и Расчеты] Сумма углов треугольника
+  DDGS: OK (0.34s)
+  DDG-HTML: OK (0.78s)
+  DDG-InstantAnswer: OK (0.31s)
+  DDG-SearchAssist: OK (6.66s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.51s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=2572eaf6-1937-479c-9f69-3d93d4811c96'
+  GPT-4o: OK (0.34s)
+
+[50/100] [Математика и Расчеты] Логарифм 100 по основанию 10
+  DDGS: OK (1.40s)
+  DDG-HTML: OK (0.68s)
+  DDG-InstantAnswer: OK (1.05s)
+  DDG-SearchAssist: OK (1.17s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.15s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.68s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=0312b1da-62bd-49ee-8f1e-2e821f330348'
+  GPT-4o: OK (0.34s)
+
+[51/100] [Конвертация (Валюты/Меры)] 100 долларов в евро
+  DDGS: OK (2.14s)
+  DDG-HTML: OK (0.75s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.40s)
+  DDG-SearchAssist: OK (0.93s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.36s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=1146c133-a818-4d7f-9771-8c2674c2b396'
+  GPT-4o: OK (0.34s)
+
+[52/100] [Конвертация (Валюты/Меры)] Сколько км в 100 милях
+  DDGS: OK (1.45s)
+  DDG-HTML: OK (0.72s)
+  DDG-InstantAnswer: OK (1.52s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.05s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.41s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=e5f8d488-857b-44cb-9644-7963d479bc47'
+  GPT-4o: OK (0.35s)
+
+[53/100] [Конвертация (Валюты/Меры)] 10 фунтов в кг
+  DDGS: OK (0.88s)
+  DDG-HTML: OK (0.66s)
+  DDG-InstantAnswer: OK (2.38s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.30s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.13s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.41s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=16cebf79-a7f9-4681-9be7-d7f16e69bbb5'
+  GPT-4o: OK (0.35s)
+
+[54/100] [Конвертация (Валюты/Меры)] Температура 100 по Фаренгейту в Цельсиях
+  DDGS: OK (1.10s)
+  DDG-HTML: OK (0.69s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.37s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.41s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.62s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=2630a165-7a15-49b4-855f-c2e16b73e622'
+  GPT-4o: OK (0.34s)
+
+[55/100] [Конвертация (Валюты/Меры)] Сколько литров в галлоне
+  DDGS: OK (1.24s)
+  DDG-HTML: OK (0.68s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (1.90s)
+  DDG-SearchAssist: OK (1.69s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.40s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=45489044-9a30-4c8d-b764-99d8b9b0e624'
+  GPT-4o: OK (0.35s)
+
+[56/100] [Конвертация (Валюты/Меры)] 1 биткоин в гривнах
+  DDGS: OK (1.24s)
+  DDG-HTML: OK (0.68s)
+  DDG-InstantAnswer: OK (1.36s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.35s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.49s)
+  Brave: OK (0.13s)
+  Startpage: OK (0.46s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.43s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=8b84bea6-8a94-48d9-89d1-f4d2e70b2abb'
+  GPT-4o: OK (0.37s)
+
+[57/100] [Конвертация (Валюты/Меры)] Метры в футы
+  DDGS: OK (1.71s)
+  DDG-HTML: OK (0.68s)
+[DDG_Instant_Answer] error sending request for url (https://search.yahoo.com/search;_ylt=STbdFWssUL70xTx4rvQ8MeM6;_ylu=KCXoqmcLpkr_xBpzIBlfU_VgdPXe1cgQMIobffEDNKwEymI?p=%D0%9C%D0%B5%D1%82%D1%80%D1%8B+%D0%B2+%D1%84%D1%83%D1%82%D1%8B) > operation timed out
+  DDG-InstantAnswer: OK (6.66s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.09s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.48s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=331bb53a-615d-4161-a647-4b8b6ea401d3'
+  GPT-4o: OK (0.32s)
+
+[58/100] [Конвертация (Валюты/Меры)] Сколько грамм в унции
+  DDGS: OK (1.93s)
+  DDG-HTML: OK (0.68s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.24s)
+  DDG-SearchAssist: OK (1.53s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.19s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9e58b39d-3ce3-44dd-9c7a-0664dcfe45b8'
+  GPT-4o: OK (0.34s)
+
+[59/100] [Конвертация (Валюты/Меры)] Сколько дней в 5 годах
+  DDGS: OK (2.77s)
+  DDG-HTML: OK (0.68s)
+  DDG-InstantAnswer: OK (2.12s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.98s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.61s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=be01332c-b8b9-45e0-9523-df00f4e7372f'
+  GPT-4o: OK (0.36s)
+
+[60/100] [Конвертация (Валюты/Меры)] 1 карат в граммах
+  DDGS: OK (1.37s)
+  DDG-HTML: OK (0.64s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.36s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.37s)
+  DDG-Snippet-deprecated: OK (0.27s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.62s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=146aba82-82f1-42a7-9c39-d4249e38f07e'
+  GPT-4o: OK (0.38s)
+
+[61/100] [Культура и Искусство] Автор картины Мона Лиза
+  DDGS: OK (2.13s)
+  DDG-HTML: OK (0.72s)
+  DDG-InstantAnswer: OK (1.17s)
+  DDG-SearchAssist: OK (1.19s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.31s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.29s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=6cf5a45b-877b-4704-a13c-68c736fcdb42'
+  GPT-4o: OK (0.28s)
+
+[62/100] [Культура и Искусство] Кто написал Войну и мир
+  DDGS: OK (3.03s)
+  DDG-HTML: OK (0.79s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.53s)
+  DDG-SearchAssist: OK (1.40s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9bd94f53-f8f6-48db-a223-3ccf2e335549'
+  GPT-4o: OK (0.33s)
+
+[63/100] [Культура и Искусство] Самый кассовый фильм
+  DDGS: OK (0.34s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (0.48s)
+  DDG-SearchAssist: OK (2.64s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.70s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=20dd4f9f-089e-4eb0-b960-0b5bd6ed023c'
+  GPT-4o: OK (0.37s)
+
+[64/100] [Культура и Искусство] В какой группе пел Курт Кобейн
+  DDGS: OK (0.94s)
+  DDG-HTML: OK (1.78s)
+  DDG-InstantAnswer: OK (1.47s)
+  DDG-SearchAssist: OK (2.32s)
+  DDG-Snippet-deprecated: OK (0.24s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.43s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=d9ec7716-0121-46ab-a10d-be3768fa6b68'
+  GPT-4o: OK (0.37s)
+
+[65/100] [Культура и Искусство] Кто получил Оскар за лучшую мужскую роль 2024
+  DDGS: OK (2.88s)
+  DDG-HTML: OK (0.73s)
+[DDG_Instant_Answer] error sending request for url (https://search.yahoo.com/search;_ylt=2EVlWo-uoS3wnPW-uWR7xFa9;_ylu=tnBSjf_pFpFE9s2-7RXNvNnBYOCDHoZaKzWRgwBNd3gH5Mo?p=%D0%9A%D1%82%D0%BE+%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB+%D0%9E%D1%81%D0%BA%D0%B0%D1%80+%D0%B7%D0%B0+%D0%BB%D1%83%D1%87%D1%88%D1%83%D1%8E+%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D1%83%D1%8E+%D1%80%D0%BE%D0%BB%D1%8C+2024) > operation timed out
+  DDG-InstantAnswer: OK (6.74s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.83s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.28s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.18s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=f5394362-28d1-4dc9-a35d-6a7736e0533d'
+  GPT-4o: OK (0.35s)
+
+[66/100] [Культура и Искусство] Где находится Лувр
+  DDGS: OK (3.01s)
+  DDG-HTML: OK (0.86s)
+  DDG-InstantAnswer: OK (2.67s)
+  DDG-SearchAssist: OK (1.17s)
+  DDG-Snippet-deprecated: OK (0.24s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.35s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=126adab3-b1ef-4d3d-bb7c-af4370fdc719'
+  GPT-4o: OK (0.33s)
+
+[67/100] [Культура и Искусство] Кто придумал Шерлока Холмса
+  DDGS: OK (2.39s)
+  DDG-HTML: OK (0.86s)
+  DDG-InstantAnswer: OK (2.56s)
+  DDG-SearchAssist: OK (1.37s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.57s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=a8fc8ffa-84be-4647-afdb-f5ccd5d5be69'
+  GPT-4o: OK (0.35s)
+
+[68/100] [Культура и Искусство] Жанр музыки джаз описание
+  DDGS: OK (2.20s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (1.18s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.61s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.24s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (9.37s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=8f68a605-45e8-44f5-a74a-e04a9c672a4c'
+  GPT-4o: OK (6.42s)
+
+[69/100] [Культура и Искусство] Автор балета Лебединое озеро
+  DDGS: OK (3.07s)
+  DDG-HTML: OK (1.07s)
+  DDG-InstantAnswer: OK (5.95s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (7.49s)
+  DDG-Snippet-deprecated: OK (1.05s)
+  GoogleSnippet: OK (0.62s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (8.99s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=b34d10e5-80da-4689-acfd-388f00107f83'
+  GPT-4o: OK (0.95s)
+
+[70/100] [Культура и Искусство] Сколько струн на гитаре
+  DDGS: OK (4.01s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (1.37s)
+  DDG-SearchAssist: OK (1.56s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.55s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=78147779-d298-4b66-b7c0-97c9820aee9c'
+  GPT-4o: OK (0.29s)
+
+[71/100] [Бытовые вопросы] Как варить рис
+  DDGS: OK (2.47s)
+  DDG-HTML: OK (0.72s)
+  DDG-InstantAnswer: OK (1.24s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.26s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.29s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.60s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=13aa3cd2-d534-4a36-842a-bfc2a6388749'
+  GPT-4o: OK (0.38s)
+
+[72/100] [Бытовые вопросы] Как вывести пятно от вина
+  DDGS: OK (2.49s)
+  DDG-HTML: OK (0.72s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (4.52s)
+  DDG-SearchAssist: OK (2.55s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.31s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=75dc750d-6989-494e-8749-3763dde22975'
+  GPT-4o: OK (0.34s)
+
+[73/100] [Бытовые вопросы] Срок годности яиц в холодильнике
+  DDGS: OK (0.87s)
+  DDG-HTML: OK (0.76s)
+  DDG-InstantAnswer: OK (1.49s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.21s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.21s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.41s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=e2ea159a-e071-4655-babf-30ae82808cdc'
+  GPT-4o: OK (0.37s)
+
+[74/100] [Бытовые вопросы] Как завязать галстук
+  DDGS: OK (2.29s)
+  DDG-HTML: OK (0.80s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (1.78s)
+  DDG-SearchAssist: OK (1.14s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.37s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=770f22cb-209b-4ab8-97a9-1c232388400c'
+  GPT-4o: OK (0.39s)
+
+[75/100] [Бытовые вопросы] Чем лечить ожог
+  DDGS: OK (0.86s)
+  DDG-HTML: OK (0.79s)
+  DDG-InstantAnswer: OK (2.02s)
+  DDG-SearchAssist: OK (1.08s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.27s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.25s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=7faf4546-8668-45b4-aad4-cf9aa50c591f'
+  GPT-4o: OK (0.40s)
+
+[76/100] [Бытовые вопросы] Как почистить серебро
+  DDGS: OK (2.11s)
+  DDG-HTML: OK (0.84s)
+  DDG-InstantAnswer: OK (2.21s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.94s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.41s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=1947f0e8-a0de-4f00-88ea-847177b7c04c'
+  GPT-4o: OK (0.38s)
+
+[77/100] [Бытовые вопросы] Как сделать скриншот на маке
+  DDGS: OK (1.77s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (1.10s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.89s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.37s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=166156eb-b859-4e49-9858-e39cf60ee7dc'
+  GPT-4o: OK (0.35s)
+
+[78/100] [Бытовые вопросы] Сколько варить вкрутую яйцо
+  DDGS: OK (1.14s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (1.11s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.43s)
+  DDG-Snippet-deprecated: OK (0.38s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.19s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=b019c73f-eaef-48bd-8c4d-d9e153d4f7f1'
+  GPT-4o: OK (0.37s)
+
+[79/100] [Бытовые вопросы] Как работает холодильник
+  DDGS: OK (3.06s)
+  DDG-HTML: OK (0.74s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.52s)
+  DDG-SearchAssist: OK (2.04s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.18s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=d6442df8-e707-4786-aae2-8c03d6c2978f'
+  GPT-4o: OK (0.35s)
+
+[80/100] [Бытовые вопросы] Как быстро уснуть
+  DDGS: OK (1.63s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (1.15s)
+  DDG-SearchAssist: OK (1.07s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.51s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=f9f74b74-203b-425a-8f5a-fc5095d84890'
+  GPT-4o: OK (0.34s)
+
+[81/100] [Сложные/Абстрактные (без быстрого ответа)] В чем смысл жизни
+  DDGS: OK (7.15s)
+  DDG-HTML: OK (0.77s)
+  DDG-InstantAnswer: OK (1.45s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.64s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.29s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=0078222c-b2af-471c-bf74-f69e3ece4a32'
+  GPT-4o: OK (0.33s)
+
+[82/100] [Сложные/Абстрактные (без быстрого ответа)] Есть ли жизнь на Марсе
+  DDGS: OK (0.34s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (0.31s)
+  DDG-SearchAssist: OK (1.47s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.15s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.42s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=cc9b57a5-20aa-4275-bdec-65aebfb00d5d'
+  GPT-4o: OK (0.36s)
+
+[83/100] [Сложные/Абстрактные (без быстрого ответа)] Почему небо синее
+  DDGS: OK (0.86s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.30s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.90s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.31s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.55s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=142ba2da-3d8d-4afc-8850-dda8ec42f0fe'
+  GPT-4o: OK (0.38s)
+
+[84/100] [Сложные/Абстрактные (без быстрого ответа)] Что было до Большого взрыва
+  DDGS: OK (1.26s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (1.34s)
+  DDG-SearchAssist: OK (2.25s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.45s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=8932bd92-a043-4008-87fc-52272208712f'
+  GPT-4o: OK (0.37s)
+
+[85/100] [Сложные/Абстрактные (без быстрого ответа)] Как стать счастливым
+  DDGS: OK (0.32s)
+  DDG-HTML: OK (0.86s)
+  DDG-InstantAnswer: OK (0.28s)
+  DDG-SearchAssist: OK (2.16s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.21s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.58s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=5d87c9cd-3307-4bc1-ac8a-8d7a002df067'
+  GPT-4o: OK (0.36s)
+
+[86/100] [Сложные/Абстрактные (без быстрого ответа)] Существует ли телепатия
+  DDGS: OK (2.36s)
+  DDG-HTML: OK (0.79s)
+  DDG-InstantAnswer: OK (1.21s)
+  DDG-SearchAssist: OK (1.29s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=34d81b29-b4bb-4228-a13e-e7f1a33cd13c'
+  GPT-4o: OK (0.37s)
+
+[87/100] [Сложные/Абстрактные (без быстрого ответа)] Будущее искусственного интеллекта
+  DDGS: OK (1.07s)
+  DDG-HTML: OK (0.81s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.46s)
+  DDG-SearchAssist: OK (2.56s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.38s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=fc2c7770-518c-405e-81d7-4ddb596a9502'
+  GPT-4o: OK (0.36s)
+
+[88/100] [Сложные/Абстрактные (без быстрого ответа)] Почему кошки мурчат
+  DDGS: OK (1.60s)
+  DDG-HTML: OK (0.65s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.32s)
+  DDG-SearchAssist: OK (1.63s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.26s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.60s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=5ccf8f7e-3c1f-424d-8149-a04e89d641f8'
+  GPT-4o: OK (0.34s)
+
+[89/100] [Сложные/Абстрактные (без быстрого ответа)] Кто виноват и что делать
+  DDGS: OK (1.25s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (0.95s)
+  DDG-SearchAssist: OK (1.34s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.51s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=c3584e96-6a4c-4cc0-be35-8d5b4db6a489'
+  GPT-4o: OK (0.32s)
+
+[90/100] [Сложные/Абстрактные (без быстрого ответа)] Как работает человеческое сознание
+  DDGS: OK (2.86s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (1.81s)
+  DDG-SearchAssist: OK (1.90s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.35s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=5e3e7419-8a10-43f2-929f-a3a6078134ec'
+  GPT-4o: OK (0.38s)
+
+[91/100] [Спорт] Кто выиграл ЧМ по футболу 2022
+  DDGS: OK (1.72s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (2.07s)
+  DDG-SearchAssist: OK (1.14s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.15s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.15s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=a8f457b5-3c27-4b60-a6d5-a94540da1c1c'
+  GPT-4o: OK (0.35s)
+
+[92/100] [Спорт] Рекорд в беге на 100 метров
+  DDGS: OK (0.96s)
+  DDG-HTML: OK (0.72s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.43s)
+  DDG-SearchAssist: OK (1.64s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.36s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=14c46c1a-3f6d-44c3-9dd4-c3cde0b800c1'
+  GPT-4o: OK (0.34s)
+
+[93/100] [Спорт] Сколько игроков в баскетболе
+  DDGS: OK (0.99s)
+  DDG-HTML: OK (0.68s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.31s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.36s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.43s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9bf32a8d-6efc-4ab0-8452-3973852f5c8c'
+  GPT-4o: OK (0.32s)
+
+[94/100] [Спорт] Где проходила Олимпиада 1980
+  DDGS: OK (2.22s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (1.52s)
+  DDG-SearchAssist: OK (1.22s)
+  DDG-Snippet-deprecated: OK (0.21s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.12s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.50s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=c760196d-3480-4700-b4b0-ebd4f077ff9b'
+  GPT-4o: OK (0.33s)
+
+[95/100] [Спорт] Кто такой Лионель Месси
+  DDGS: OK (1.08s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (2.42s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.58s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.41s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=9d0eab09-3341-4479-9639-711feb96c4af'
+  GPT-4o: OK (0.36s)
+
+[96/100] [Спорт] Длина марафонской дистанции
+  DDGS: OK (2.92s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.27s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.38s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.30s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.44s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=c6e90ae4-f021-4cbb-8c07-81555bf6b3e7'
+  GPT-4o: OK (0.38s)
+
+[97/100] [Спорт] В каком году основали НБА
+  DDGS: OK (0.96s)
+  DDG-HTML: OK (0.89s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (6.62s)
+  DDG-SearchAssist: OK (2.26s)
+  DDG-Snippet-deprecated: OK (0.23s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.57s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=edc4c98a-ae3c-4efa-bba8-e023e3991be5'
+  GPT-4o: OK (0.35s)
+
+[98/100] [Спорт] Самый титулованный теннисист
+  DDGS: OK (1.42s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] error sending request for url (https://search.yahoo.com/search;_ylt=W-nXpbDjy1gY3z3MvDKZluLx;_ylu=iZ7KT7YGi5EZC7EUQLuDE3vmVwf2jvdK_zGBNtQ43swMil0?p=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D1%82%D0%B8%D1%82%D1%83%D0%BB%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9+%D1%82%D0%B5%D0%BD%D0%BD%D0%B8%D1%81%D0%B8%D1%81%D1%82) > operation timed out
+  DDG-InstantAnswer: OK (6.63s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.89s)
+  DDG-Snippet-deprecated: OK (0.28s)
+  GoogleSnippet: OK (0.20s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.29s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=937dc214-6bc9-4c60-8419-e60d5ccc720f'
+  GPT-4o: OK (0.36s)
+
+[99/100] [Спорт] Сколько таймов в футболе
+  DDGS: OK (2.01s)
+  DDG-HTML: OK (0.74s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.42s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.45s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.19s)
+  Brave: OK (0.11s)
+  Startpage: OK (0.25s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.35s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=65a5e3dd-a16a-42eb-a15f-cce6ba4642bf'
+  GPT-4o: OK (0.36s)
+
+[100/100] [Спорт] Что такое оффсайд простыми словами
+  DDGS: OK (1.09s)
+  DDG-HTML: OK (0.66s)
+  DDG-InstantAnswer: OK (2.50s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (1.87s)
+  DDG-Snippet-deprecated: OK (0.22s)
+  GoogleSnippet: OK (0.25s)
+  Brave: OK (0.10s)
+  Startpage: OK (0.24s)
+[duck.ai] {"action":"error","status":429,"type":"ERR_RATE_LIMIT","r":"c6d8b851-d1a8-4514-9280-7d0695367d29"}
+  duck.ai: OK (7.22s)
+[GPT-4o] Error during CopilotApp interaction: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=678b1960-05cd-454d-af9f-d3185f6a7ca2'
+  GPT-4o: OK (0.69s)
+
+======================================================================
+Saved to benchmark_results.csv
+
+STATISTICS:
+
+DDGS:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 100/100
+  Avg time: 1.90s
+
+DDG-HTML:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 100/100
+  Avg time: 0.75s
+
+DDG-InstantAnswer:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 59/100
+  Avg time: 2.22s
+
+DDG-SearchAssist:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 58/100
+  Avg time: 2.22s
+
+DDG-Snippet-deprecated:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 2/100
+  Avg time: 0.23s
+
+GoogleSnippet:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 0/100
+  Avg time: 0.23s
+
+Brave:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 0/100
+  Avg time: 0.11s
+
+Startpage:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 0/100
+  Avg time: 0.26s
+
+duck.ai:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 0/100
+  Avg time: 7.46s
+
+GPT-4o:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 0/100
+  Avg time: 0.42s

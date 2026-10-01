@@ -42,3 +42,17 @@ class SearchAPI_Engine(Engine):
             return(answer["organic_results"][0]["snippet"])
         return ""
 
+
+
+# ---- module-level interface required by the task ----
+_instance = None
+
+def search(query: str, language_code: str = "ru") -> str:
+    """Module-level wrapper. Returns '' if API key is missing."""
+    global _instance
+    import os
+    if not os.getenv("SEARCHAPI_API_KEY"):
+        return ""
+    if _instance is None:
+        _instance = SearchAPI_Engine(os.getenv("SEARCHAPI_API_KEY"))
+    return _instance.search(query, language_code)
