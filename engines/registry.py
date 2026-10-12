@@ -1,12 +1,4 @@
-"""Single source of truth for the list of available engines.
-
-Engines that require an API key are skipped when the corresponding
-environment variable is not set.
-
-Mojeek and Qwant are excluded from the active list because they block
-requests from datacenter IPs (Mojeek) or use DataDome captcha (Qwant).
-Their implementations remain in the repo as documented best-effort attempts.
-"""
+"""Single source of truth for the list of available engines."""
 import os
 
 import search_duckduckgo
@@ -17,10 +9,9 @@ from engines.ddg_instant_answer import DDG_Instant_Answer
 from engines.ddg_search_assist import DDG_Search_Assist
 from engines.gpt_engine import GPT_Engine
 from engines.google_snippet import GoogleSnippet
+from engines.wikipedia_summary import WikipediaSummary
 from engines.brave_snippet import BraveEngine
-from engines.qwant_snippet import QwantSnippet
 from engines.startpage_snippet import StartpageSnippet
-from engines.mojeek_snippet import MojeekSnippet
 from engines.duck_ai import DuckAI
 
 from engines.serper_engine import Serper_Engine
@@ -36,20 +27,23 @@ from engines.ddg_groq_engine import DDG_Groq_Engine
 def get_engines() -> list[tuple[str, callable]]:
     engines: list[tuple[str, callable]] = []
 
-    # ---- No API key required ----
+    # ---- Working keyless engines ----
     engines.append(("DDGS", DDGS_Engine().search))
     engines.append(("DDG-HTML", search_duckduckgo.search))
     engines.append(("DDG-InstantAnswer", DDG_Instant_Answer().search))
     engines.append(("DDG-SearchAssist", DDG_Search_Assist().search))
-    engines.append(("DDG-Snippet-deprecated", DDG_Snippet().search))
-    engines.append(("GoogleSnippet", GoogleSnippet().search))
-    engines.append(("Brave", BraveEngine().search))
-    engines.append(("Startpage", StartpageSnippet().search))
-    engines.append(("duck.ai", DuckAI().search))
-    engines.append(("GPT-4o", GPT_Engine().search))
+    engines.append(("Wikipedia", WikipediaSummary().search))
 
-    # Mojeek and Qwant are intentionally excluded from the active list.
-    # See REPORT.md for the blocking evidence.
+    # ---- Known-broken, kept for comparison (single query each) ----
+    # Uncomment if you want to include them, but they slow the benchmark down.
+    # engines.append(("DDG-Snippet-deprecated", DDG_Snippet().search))
+    # engines.append(("GoogleSnippet", GoogleSnippet().search))
+    # engines.append(("Brave", BraveEngine().search))
+    # engines.append(("Startpage", StartpageSnippet().search))
+    # engines.append(("duck.ai", DuckAI().search))
+    # engines.append(("GPT-4o", GPT_Engine().search))
+
+    # ---- Mojeek and Qwant: excluded, blocked by network ----
 
     # ---- Require API keys ----
     serper_key = os.getenv("SERPER_API_KEY")

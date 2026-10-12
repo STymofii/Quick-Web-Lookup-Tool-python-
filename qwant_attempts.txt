@@ -1,0 +1,11 @@
+=== Step 1: visit home page to get cookies ===
+  status=200 len=142272
+  cookies: {'ab_test_group': '3'}
+
+=== Step 2: call API with session cookies ===
+  status=403 len=569
+  body: {"url":"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAxLmoh-VKz6EAvKNhcA==&cid=My5yGEeirsn~zwBtJCw9ZvZWU6lb~KPmw75Hlrt9_yXG9tFTgaW2xw9vurT6nOoXuPRQ5vSiAzi_Zx1LQeY6a3JqRGHwAhYMS4wkqd3Rcq9hRO~84siGav76nkQVFLC0&referer=http%3A%2F%2Fapi.qwant.com%2Fv3%2Fsearch%2Fweb%3Fq%3DU6GM46nCcH8b5EzHSBpmWSElM7NpzzkYzXIF7YPrM4c%26count%3D1%26locale%3Dru_RU%26offset%3D0%26device%3Ddesktop%26safesearch%3D1&hash=78B13B7513D180B7AB6D6FF9EB0A51&t=fe&s=57088&e=370911b10eeca44293aca5801f75f6e77c29561
+
+=== Step 3: try Staan (official successor) ===
+  status=401
+  body: {"message":"Unauthorized","statusCode":401}

@@ -1,0 +1,58 @@
+
+=== api.duckduckgo.com basic ===
+  [capital of France] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+  [who is Pushkin] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+
+=== api.duckduckgo.com skip_disambig ===
+  [capital of France] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+  [who is Pushkin] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+
+=== api.duckduckgo.com t=quicklook ===
+  [capital of France] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+  [who is Pushkin] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+
+=== api.duckduckgo.com kl=ru-ru ===
+  [capital of France] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+  [who is Pushkin] status=200 len=1252
+    Answer=''
+    AbstractText=''
+    RelatedTopics=0
+
+=== duckduckgo.com/html/ scrape ===
+  [capital of France] status=202 len=14217
+    preview: <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> --> <!DOCTYPE html> <html lang="en">  <head>     <link rel="canonical" href="https://duckduc
+  [who is Pushkin] status=202 len=14211
+    preview: <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> --> <!DOCTYPE html> <html lang="en">  <head>     <link rel="canonical" href="https://duckduc
+
+=== html.duckduckgo.com/html/ scrape ===
+  [capital of France] status=202 len=14234
+    preview: <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> --> <!DOCTYPE html> <html lang="en">  <head>     <link rel="canonical" href="https://duckduc
+  [who is Pushkin] status=202 len=14205
+    preview: <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> --> <!DOCTYPE html> <html lang="en">  <head>     <link rel="canonical" href="https://duckduc
+
+=== lite.duckduckgo.com/lite/ scrape ===
+  [capital of France] status=202 len=14211
+    preview: <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> --> <!DOCTYPE html> <html lang="en">  <head>     <link rel="canonical" href="https://duckduc
+  [who is Pushkin] status=202 len=14217
+    preview: <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> --> <!DOCTYPE html> <html lang="en">  <head>     <link rel="canonical" href="https://duckduc

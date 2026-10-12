@@ -1,4 +1,3 @@
-cat > REPORT.md << 'MDEOF'
 # Quick Web Lookup Tool — Verification Report
 
 **Task:** review fork `STymofii/Quick-Web-Lookup-Tool-python-`, verify prior
@@ -153,6 +152,56 @@ at the selector level.
 residential proxy. The implementation remains in `engines/mojeek_snippet.py`
 as a documented best-effort attempt.
 
+### 2.6 Bypass attempts — DDG snippet (7 endpoints tested)
+
+| Endpoint | Result |
+|---|---|
+| `api.duckduckgo.com` (basic) | 200, `Answer='' AbstractText=''` |
+| `+ skip_disambig=1` | 200, empty |
+| `+ t=quicklook` | 200, empty |
+| `+ kl=ru-ru` | 200, empty |
+| `duckduckgo.com/html/` scrape | **202** (anti-bot challenge) |
+| `html.duckduckgo.com/html/` scrape | **202** (anti-bot challenge) |
+| `lite.duckduckgo.com/lite/` scrape | **202** (anti-bot challenge) |
+
+Direct HTML scraping of DDG is blocked with HTTP 202 and a JS challenge
+page. Only the `ddgs` library bypasses this. Evidence: `ddg_snippet_attempts.txt`.
+
+### 2.7 Bypass attempts — Mojeek (4 header sets tested)
+
+All 4 attempts returned **HTTP 403** with the same response:
+
+> "Sorry your network appears to be sending automated queries so we can't
+> process your search at this time."
+
+Header sets tried: bare `requests.get`, Chrome UA, Firefox UA + Referer,
+and with `Mojeek=1` cookie. Block is at the network level. Evidence:
+`mojeek_attempts.txt`.
+
+### 2.8 Bypass attempts — Qwant (3 approaches tested)
+
+| Approach | Result |
+|---|---|
+| Direct API call | 403 DataDome captcha |
+| Session + cookies from home page | 403 DataDome captcha |
+| Staan API (official successor) | **401 Unauthorized** — needs Bearer token |
+
+Evidence: `qwant_attempts.txt`.
+
+### 2.9 DDG rate limit — confirmed after sustained use
+
+Two benchmark runs on the same day:
+
+| Engine | Run 1 (fresh) | Run 2 (after ~500 requests) |
+|---|---:|---:|
+| DDG-HTML | 98/100 | 68/100 |
+| DDGS | 74/100 | 58/100 |
+| DDG-InstantAnswer | 64/100 | 62/100 |
+| DDG-SearchAssist | 58/100 | 62/100 |
+
+DDG rate-limits at sustained volume. Low-volume voice use is fine;
+at scale, throttling or proxy rotation is required.
+
 ---
 
 ## 3. Benchmark
@@ -177,7 +226,7 @@ as a documented best-effort attempt.
 | DDGS | 100/100 | 74/100 | 2.02 | Works. Slower, lower coverage. |
 | DDG-InstantAnswer | 100/100 | 64/100 | 2.07 | Worse coverage than DDGS. |
 | DDG-SearchAssist | 100/100 | 58/100 | 2.22 | Extended context. |
-| duck.ai | 100/100 | 0/100 | 0.26 | LLM + web search (broken provider). |
+| duck.ai | 100/100 | 0/100 | 0.26 | LLM + web search. |
 | DDG-Snippet (legacy) | 100/100 | 2/100 | 0.22 | Nearly dead. |
 | GoogleSnippet | 100/100 | 0/100 | 0.22 | Anti-bot. |
 | Brave | 100/100 | 0/100 | 0.11 | Anti-bot. |
@@ -202,6 +251,52 @@ as a documented best-effort attempt.
 - **LLM-based engines** (GPT-4o, Groq, DDG+Groq, duck.ai) do not meet the
   project requirement ("traditional web search, not LLM"). `g4f` is
   currently non-functional (provider returns HTTP 460).
+
+---
+
+### 3.3 Engine overlap analysis
+
+Analysis of `benchmark_results.csv` from run 2. Raw output:
+`overlap_analysis.txt`.
+
+### Per-engine coverage (run 2)
+
+| Engine | Non-empty | Coverage |
+|---|---:|---:|
+| DDG-HTML | 68/100 | 68% |
+| DDG-InstantAnswer | 62/100 | 62% |
+| DDG-SearchAssist | 62/100 | 62% |
+| DDGS | 58/100 | 58% |
+| Wikipedia | 5/100 | 5% |
+
+### Union coverage
+
+- **At least one engine answered: 96/100 (96%)**
+- Nobody answered: 4/100 (4%)
+
+### Unique contributions
+
+| Engine | Unique |
+|---|---:|
+| DDG-HTML | 6 |
+| DDG-InstantAnswer | 6 |
+| DDG-SearchAssist | 5 |
+| DDGS | 2 |
+| Wikipedia | 0 |
+
+### Best combinations
+
+| Combination | Union | Δ over best single | Jaccard |
+|---|---:|---:|---:|
+| **DDG-HTML + DDG-InstantAnswer** | **87/100** | **+19** | 49% |
+| DDG-HTML + DDG-SearchAssist | 86/100 | +18 | 51% |
+| DDGS + DDG-HTML | 83/100 | +15 | 52% |
+
+### Conclusion — combination is worthwhile
+
+Combining two engines gives **+18-19 pp** over the best single engine.
+Recommended production config: DDG-HTML (primary) + DDG-InstantAnswer
+(fallback).
 
 ---
 
