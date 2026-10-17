@@ -1,61 +1,37 @@
 import time
-from urllib.parse import quote_plus
-from typing import Callable
 
-from dotenv import load_dotenv; load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
-from base_scraper import BaseScraper
-
-# from engines import groq_engine
-# from engines import ddg_groq_engine
-# from engines import wolfram_engine
-# from engines import serper_engine
-# from engines import searchapi_engine
-# from engines import ddgs_engine
-from engines import gpt_engine
+from engines.registry import get_engines
 
 
-
-def run_single_engine_test(name: str, search_func: Callable[[str, str], None], query: str):
-    start_time = time.time()
+def run_single_engine_test(name, search_func, query):
+    start = time.time()
     try:
         answer = search_func(query, "ru")
-        if not answer:
-            raise Exception("Answer is empty")
-        status = "OK"
+        status = "OK" if answer else "EMPTY"
     except Exception as e:
-        answer = f"[Error: {str(e)[:50]}]"
+        answer = f"[Error: {str(e)[:80]}]"
         status = "FAIL"
+    elapsed = time.time() - start
+    preview = (answer[:120] + "...") if len(answer) > 120 else answer
+    print(f"  {name} [{status}] ({elapsed:.2f}s): {preview}")
 
-    elapsed = time.time() - start_time
-            
-    #print(f"  {name}: {status} - {answer} ({elapsed:.2f}s)")
-    if answer and answer != "[Пусто]":
-        print(f"    {name} ({elapsed:.2f}s):\n\t → {answer[:80] + '...' if len(answer) > 80 else answer}")
 
 def run_engines_test():
-    engines = [
-        # ("Groq", groq_engine.search),
-        # ("DuckDuckGo-Groq", ddg_groq_engine.search),
-        # ("Wolfram", wolfram_engine.search),
-        # ("Serper", serper_engine.search),
-        # ("SearchAPI", searchapi_engine.search),
-        # ("DDGS", ddgs_engine.search),
-        ("GPT-4o", gpt_engine.search)
-
-    ]
+    engines = get_engines()
+    print(f"Loaded {len(engines)} engines:")
+    for name, _ in engines:
+        print(f"  - {name}")
+    print()
     while True:
-        query = input("Your question: ") 
+        query = input("Your question (empty to exit): ").strip()
         if not query:
             break
         for name, search_func in engines:
-            run_single_engine_test(name, search_func, query) 
-
-
-def test():
-    run_engines_test()
+            run_single_engine_test(name, search_func, query)
 
 
 if __name__ == "__main__":
-    test()
-
+    run_engines_test()

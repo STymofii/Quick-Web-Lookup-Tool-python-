@@ -24,3 +24,14 @@ class GoogleSnippet(Engine):
 
         selectors = [".hgKElc", ".LGOjhe", ".Z0LcW"]
         return scraper.parse_multiple_selectors(html, selectors)
+
+
+# ---- module-level interface required by the task ----
+_instance = None
+
+def search(query: str, language_code: str = "ru") -> str:
+    """Module-level wrapper."""
+    global _instance
+    if _instance is None:
+        _instance = GoogleSnippet()
+    return _instance.search(query, language_code)

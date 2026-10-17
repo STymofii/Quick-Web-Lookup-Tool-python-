@@ -1,0 +1,16 @@
+
+=== bare requests.get ===
+  status=403 len=325
+  preview: <!DOCTYPE html><html><head><title>403 - Forbidden</title></head><body><h1>403 - Forbidden</h1><h2>Sorry your network appears to be sending automated queries so we can't process your search at this time.</h2><h3>If you are seeing this in error please <a href="/about/contact?refr=403&q=test">contact u
+
+=== Chrome UA + Accept ===
+  status=403 len=325
+  preview: <!DOCTYPE html><html><head><title>403 - Forbidden</title></head><body><h1>403 - Forbidden</h1><h2>Sorry your network appears to be sending automated queries so we can't process your search at this time.</h2><h3>If you are seeing this in error please <a href="/about/contact?refr=403&q=test">contact u
+
+=== Firefox UA + Referer ===
+  status=403 len=325
+  preview: <!DOCTYPE html><html><head><title>403 - Forbidden</title></head><body><h1>403 - Forbidden</h1><h2>Sorry your network appears to be sending automated queries so we can't process your search at this time.</h2><h3>If you are seeing this in error please <a href="/about/contact?refr=403&q=test">contact u
+
+=== with Mojeek=1 cookie ===
+  status=403 len=325
+  preview: <!DOCTYPE html><html><head><title>403 - Forbidden</title></head><body><h1>403 - Forbidden</h1><h2>Sorry your network appears to be sending automated queries so we can't process your search at this time.</h2><h3>If you are seeing this in error please <a href="/about/contact?refr=403&q=test">contact u

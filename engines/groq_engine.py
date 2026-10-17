@@ -1,42 +1,46 @@
 from groq import Groq
 from engines.engine import Engine
 
+
 class GroqEngine(Engine):
+    """LLM Groq. NOT a search engine. Requires GROQ_API_KEY."""
+
     def __init__(self, api_key):
-        """
-        Args:
-            api_key (str): os.environ.get(GROQ_API_KEY).
-        """
-        self.api_key=api_key
+        self.api_key = api_key
 
     def search(self, query: str, language_code: str = "ru") -> str:
-        """LLM Groq's answer. 
-    
-        Provides answers to the simplest and most common questions, but gives incorrect answers to more difficult questions.
-
-        Args:
-            query (str): The search phrase or question to query (e.g., "Trump age").
-            language_code (str, optional): Two-letter ISO language code for the request.
-
-        Returns:
-            str: Extracted snippet text from the top search results, or an empty string
-                if no matching selectors or content are found.
-        """
-
+        if not self.api_key:
+            return ""
         try:
-            client = Groq()
-        
-            system_prompt = f"You are a database of precise data. Your task is to give the shortest, most concrete answer to a question in the language {language_code}. No politeness, greetings, or unnecessary fluff. Just the bare facts. Examples: for 'capital of France', the answer is 'Paris'; for 'height of the Eiffel Tower', the answer is '330 m'."
-
+            client = Groq(api_key=self.api_key)
+            system_prompt = (
+                f"You are a database of precise data. Give the shortest, most "
+                f"concrete answer in language '{language_code}'. No greetings, "
+                f"no fluff."
+            )
             completion = client.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=[
                     {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": query}
+                    {"role": "user", "content": query},
                 ],
-                temperature=0.0
+                temperature=0.0,
             )
             return completion.choices[0].message.content.strip()
-        
         except Exception as e:
-            return f"Error Groq: {e}"
+            print(f"[Groq] {e}")
+            return ""
+
+
+# ---- module-level interface required by the task ----
+_instance = None
+
+def search(query: str, language_code: str = "ru") -> str:
+    """Module-level wrapper. Returns '' if API key is missing."""
+    global _instance
+    import os
+    if not os.getenv("GROQ_API_KEY"):
+        return ""
+    if _instance is None:
+        _instance = GroqEngine(os.getenv("GROQ_API_KEY"))
+    return _instance.search(query, language_code)

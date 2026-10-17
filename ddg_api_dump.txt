@@ -1,0 +1,25 @@
+Q: capital of France
+  Answer:       ''
+  AbstractText: ''
+  RelatedTopics: 0
+
+Q: height of Eiffel Tower
+  Answer:       ''
+  AbstractText: ''
+  RelatedTopics: 0
+
+Q: 2+2
+  Answer:       ''
+  AbstractText: ''
+  RelatedTopics: 9
+
+Q: who is Pushkin
+  Answer:       ''
+  AbstractText: "Alexander Sergeyevich Pushkin was a Russian poet, playwright, and novelist of the Romantic era. He is considered by many to be the greatest Russian poet, as well as the founder of modern Russian literature. Pushkin was born into the Russian nobility in Moscow. His father, Sergey Lvovich Pushkin, belonged to an old noble family. One of his maternal great-grandfathers was Abram Petrovich Gannibal, a nobleman and military general of African origin who was kidnapped from his homeland by the Ottomans, then freed by Peter the Great and raised in the Emperor's court household as his godson. Pushkin published his first poem at the age of 15, and was widely recognized by the literary establishment by the time of his graduation from the Tsarskoye Selo Lyceum."
+  RelatedTopics: 19
+
+Q: weather in Kyiv
+  Answer:       ''
+  AbstractText: ''
+  RelatedTopics: 0
+

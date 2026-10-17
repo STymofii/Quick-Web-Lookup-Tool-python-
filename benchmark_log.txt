@@ -1,0 +1,814 @@
+Running benchmark: 100 queries x 5 engines
+  - DDGS
+  - DDG-HTML
+  - DDG-InstantAnswer
+  - DDG-SearchAssist
+  - Wikipedia
+======================================================================
+
+[1/100] [География] Столица Исландии
+  DDGS: OK (0.39s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (0.45s)
+  DDG-SearchAssist: OK (2.65s)
+  Wikipedia: OK (0.35s)
+
+[2/100] [География] Самая длинная река в мире
+  DDGS: OK (2.31s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (1.16s)
+  DDG-SearchAssist: OK (2.06s)
+  Wikipedia: OK (0.53s)
+
+[3/100] [География] Население Токио
+  DDGS: OK (0.35s)
+  DDG-HTML: OK (0.80s)
+  DDG-InstantAnswer: OK (0.29s)
+  DDG-SearchAssist: OK (2.69s)
+  Wikipedia: OK (0.61s)
+
+[4/100] [География] Площадь Ватикана
+  DDGS: OK (2.52s)
+  DDG-HTML: OK (0.74s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (3.03s)
+  DDG-SearchAssist: OK (2.35s)
+  Wikipedia: OK (0.51s)
+
+[5/100] [География] Высота горы Эверест
+  DDGS: OK (2.72s)
+  DDG-HTML: OK (0.81s)
+[DDG_Instant_Answer] error sending request for url (https://search.yahoo.com/search;_ylt=J5pkUMki3M3FJOnclhdWgMEy;_ylu=eHdM193j9K5O9ca8p7Ogw3rcw0RVe4zKIvN1uMO3q3et0CM?p=%D0%92%D1%8B%D1%81%D0%BE%D1%82%D0%B0+%D0%B3%D0%BE%D1%80%D1%8B+%D0%AD%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D1%82) > operation timed out
+  DDG-InstantAnswer: OK (6.62s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (1.92s)
+  Wikipedia: OK (0.62s)
+
+[6/100] [География] В какой стране находится Мачу-Пикчу
+  DDGS: OK (2.93s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.01s)
+  DDG-SearchAssist: OK (2.61s)
+  Wikipedia: OK (0.61s)
+
+[7/100] [География] Глубина Байкала
+  DDGS: OK (2.59s)
+  DDG-HTML: OK (0.81s)
+  DDG-InstantAnswer: OK (1.98s)
+  DDG-SearchAssist: OK (1.15s)
+  Wikipedia: OK (0.78s)
+
+[8/100] [География] С кем граничит Португалия
+  DDGS: OK (1.61s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.65s)
+  DDG-SearchAssist: OK (2.66s)
+  Wikipedia: OK (0.59s)
+
+[9/100] [География] Самый большой остров в мире
+  DDGS: OK (1.66s)
+  DDG-HTML: OK (0.64s)
+  DDG-InstantAnswer: OK (1.22s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.61s)
+  Wikipedia: OK (0.65s)
+
+[10/100] [География] В каком океане находятся Сейшелы
+  DDGS: OK (2.15s)
+  DDG-HTML: OK (0.77s)
+  DDG-InstantAnswer: OK (2.20s)
+  DDG-SearchAssist: OK (2.25s)
+  Wikipedia: OK (0.45s)
+
+[11/100] [Личности (Биография)] Кто такой Илон Маск
+  DDGS: OK (2.27s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (1.95s)
+  DDG-SearchAssist: OK (1.37s)
+  Wikipedia: OK (1.42s)
+
+[12/100] [Личности (Биография)] Дата рождения Альберта Эйнштейна
+  DDGS: OK (2.99s)
+  DDG-HTML: OK (1.09s)
+[DDG_Instant_Answer] error sending request for url (https://search.yahoo.com/search;_ylt=9u7D-5_Z9F4V_DBADnx8stku;_ylu=-do9IzZZyfLQpVPfgobMA1iOoRgL_H46LcJa0gSEMSzbRwk?p=%D0%94%D0%B0%D1%82%D0%B0+%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F+%D0%90%D0%BB%D1%8C%D0%B1%D0%B5%D1%80%D1%82%D0%B0+%D0%AD%D0%B9%D0%BD%D1%88%D1%82%D0%B5%D0%B9%D0%BD%D0%B0) > operation timed out
+  DDG-InstantAnswer: OK (6.25s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.11s)
+  Wikipedia: OK (0.80s)
+
+[13/100] [Личности (Биография)] Настоящее имя Фредди Меркьюри
+  DDGS: OK (1.57s)
+  DDG-HTML: OK (0.79s)
+  DDG-InstantAnswer: OK (1.25s)
+  DDG-SearchAssist: OK (1.64s)
+  Wikipedia: OK (0.47s)
+
+[14/100] [Личности (Биография)] Кем был Леонардо да Винчи
+  DDGS: OK (2.55s)
+  DDG-HTML: OK (0.83s)
+  DDG-InstantAnswer: OK (1.24s)
+  DDG-SearchAssist: OK (1.98s)
+  Wikipedia: OK (0.58s)
+
+[15/100] [Личности (Биография)] Кто основал Microsoft
+  DDGS: OK (2.80s)
+  DDG-HTML: OK (0.60s)
+  DDG-InstantAnswer: OK (1.72s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.41s)
+  Wikipedia: OK (0.45s)
+
+[16/100] [Личности (Биография)] Где родился Наполеон
+  DDGS: OK (2.82s)
+  DDG-HTML: OK (1.02s)
+  DDG-InstantAnswer: OK (2.58s)
+  DDG-SearchAssist: OK (2.18s)
+  Wikipedia: OK (0.50s)
+
+[17/100] [Личности (Биография)] Кто написал Гамлета
+  DDGS: OK (2.38s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.37s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.64s)
+  Wikipedia: OK (0.51s)
+
+[18/100] [Личности (Биография)] Первый человек в космосе
+  DDGS: OK (2.65s)
+  DDG-HTML: OK (0.73s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.10s)
+  DDG-SearchAssist: OK (1.79s)
+  Wikipedia: OK (0.50s)
+
+[19/100] [Личности (Биография)] Кто открыл периодическую таблицу
+  DDGS: OK (2.53s)
+  DDG-HTML: OK (0.71s)
+  DDG-InstantAnswer: OK (1.48s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (6.60s)
+  Wikipedia: OK (0.47s)
+
+[20/100] [Личности (Биография)] Действующий президент Франции
+  DDGS: OK (2.66s)
+  DDG-HTML: OK (0.77s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.84s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.12s)
+  Wikipedia: OK (0.68s)
+
+[21/100] [Наука и Техника] Скорость света в вакууме
+  DDGS: OK (0.39s)
+  DDG-HTML: OK (0.80s)
+  DDG-InstantAnswer: OK (0.34s)
+  DDG-SearchAssist: OK (2.23s)
+  Wikipedia: OK (0.32s)
+
+[22/100] [Наука и Техника] Что такое фотосинтез
+  DDGS: OK (2.64s)
+  DDG-HTML: OK (0.76s)
+  DDG-InstantAnswer: OK (2.20s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.46s)
+  Wikipedia: OK (0.53s)
+
+[23/100] [Наука и Техника] Формула воды
+  DDGS: OK (0.34s)
+  DDG-HTML: OK (0.82s)
+  DDG-InstantAnswer: OK (0.31s)
+  DDG-SearchAssist: OK (2.39s)
+  Wikipedia: OK (0.79s)
+
+[24/100] [Наука и Техника] Число Пи до 5 знака
+  DDGS: OK (1.40s)
+  DDG-HTML: OK (0.63s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.72s)
+  DDG-SearchAssist: OK (2.44s)
+  Wikipedia: OK (0.51s)
+
+[25/100] [Наука и Техника] Расстояние до Луны
+  DDGS: OK (1.22s)
+  DDG-HTML: OK (0.66s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.63s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (2.72s)
+  Wikipedia: OK (1.60s)
+
+[26/100] [Наука и Техника] Температура кипения золота
+  DDGS: OK (1.25s)
+  DDG-HTML: OK (0.24s)
+  DDG-InstantAnswer: OK (1.61s)
+  DDG-SearchAssist: OK (1.53s)
+  Wikipedia: OK (2.02s)
+
+[27/100] [Наука и Техника] Сколько планет в солнечной системе
+  DDGS: OK (1.88s)
+  DDG-HTML: OK (0.79s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (2.74s)
+[DDG-SearchAssist] error sending request for url (https://search.yahoo.com/search;_ylt=SrE2wc1nBPq8XS-R556sqgYr;_ylu=UKRNXYvEp9UBWfc-irARnGRYn-JfM-kp7KAq_2H_M7_SJA0?p=%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82+%D0%B2+%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D0%B9+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5) > operation timed out
+  DDG-SearchAssist: OK (6.51s)
+  Wikipedia: OK (1.73s)
+
+[28/100] [Наука и Техника] Закон всемирного тяготения
+  DDGS: OK (0.36s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (0.41s)
+  DDG-SearchAssist: OK (2.59s)
+  Wikipedia: OK (0.21s)
+
+[29/100] [Наука и Техника] Что такое блокчейн
+  DDGS: OK (1.95s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (3.53s)
+  DDG-SearchAssist: OK (1.19s)
+  Wikipedia: OK (0.52s)
+
+[30/100] [Наука и Техника] Сколько зубов у взрослого человека
+  DDGS: OK (1.33s)
+  DDG-HTML: OK (0.72s)
+  DDG-InstantAnswer: OK (2.74s)
+  DDG-SearchAssist: OK (1.74s)
+  Wikipedia: OK (0.94s)
+
+[31/100] [История] Дата начала Второй мировой войны
+  DDGS: OK (2.59s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (2.41s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (3.39s)
+  Wikipedia: OK (0.43s)
+
+[32/100] [История] Когда распался СССР
+  DDGS: OK (7.44s)
+  DDG-HTML: OK (0.75s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (3.63s)
+  DDG-SearchAssist: OK (2.93s)
+  Wikipedia: OK (0.56s)
+
+[33/100] [История] Кто построил пирамиды
+  DDGS: OK (2.40s)
+  DDG-HTML: OK (0.58s)
+[DDG_Instant_Answer] No results found.
+  DDG-InstantAnswer: OK (3.72s)
+[DDG-SearchAssist] No results found.
+  DDG-SearchAssist: OK (3.33s)
+  Wikipedia: OK (1.54s)
+
+[34/100] [История] Год основания Рима
+  DDGS: OK (7.57s)
+  DDG-HTML: OK (0.80s)
+  DDG-InstantAnswer: OK (1.20s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.69s)
+  Wikipedia: OK (0.84s)
+
+[35/100] [История] Когда произошло крещение Руси
+  DDGS: OK (5.58s)
+  DDG-HTML: OK (0.80s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (3.26s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/sp/search) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (4.08s)
+  Wikipedia: OK (0.46s)
+
+[36/100] [История] Французская революция год
+  DDGS: OK (0.29s)
+  DDG-HTML: OK (0.86s)
+  DDG-InstantAnswer: OK (0.32s)
+  DDG-SearchAssist: OK (3.40s)
+  Wikipedia: OK (0.45s)
+
+[37/100] [История] Кто был первым императором Китая
+  DDGS: OK (3.38s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (3.08s)
+  DDG-SearchAssist: OK (2.20s)
+  Wikipedia: OK (0.97s)
+
+[38/100] [История] Когда пала Византийская империя
+  DDGS: OK (3.25s)
+  DDG-HTML: OK (0.76s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (3.51s)
+  DDG-SearchAssist: OK (2.52s)
+  Wikipedia: OK (0.73s)
+
+[39/100] [История] Открытие Америки Колумбом дата
+  DDGS: OK (1.18s)
+  DDG-HTML: OK (0.71s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/sp/search) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (3.00s)
+  DDG-SearchAssist: OK (1.40s)
+  Wikipedia: OK (0.78s)
+
+[40/100] [История] Сколько длилась Столетняя война
+  DDGS: OK (8.34s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (1.38s)
+  DDG-SearchAssist: OK (2.01s)
+  Wikipedia: OK (1.11s)
+
+[41/100] [Математика и Расчеты] Квадратный корень из 144
+  DDGS: OK (2.98s)
+  DDG-HTML: OK (0.66s)
+  DDG-InstantAnswer: OK (2.27s)
+  DDG-SearchAssist: OK (1.27s)
+  Wikipedia: OK (0.50s)
+
+[42/100] [Математика и Расчеты] 2+2*2
+  DDGS: OK (0.41s)
+  DDG-HTML: OK (0.80s)
+  DDG-InstantAnswer: OK (0.30s)
+  DDG-SearchAssist: OK (3.17s)
+  Wikipedia: OK (0.73s)
+
+[43/100] [Математика и Расчеты] 15% от 200
+  DDGS: OK (4.77s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (5.63s)
+  DDG-SearchAssist: OK (5.12s)
+  Wikipedia: OK (0.64s)
+
+[44/100] [Математика и Расчеты] Сколько секунд в сутках
+  DDGS: OK (1.92s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (1.49s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.51s)
+  Wikipedia: OK (1.07s)
+
+[45/100] [Математика и Расчеты] Синус 90 градусов
+  DDGS: OK (1.95s)
+  DDG-HTML: OK (0.93s)
+  DDG-InstantAnswer: OK (2.11s)
+  DDG-SearchAssist: OK (2.16s)
+  Wikipedia: OK (0.47s)
+
+[46/100] [Математика и Расчеты] Площадь круга формула
+  DDGS: OK (2.55s)
+  DDG-HTML: OK (0.69s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.45s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.39s)
+  Wikipedia: OK (0.43s)
+
+[47/100] [Математика и Расчеты] Чему равно число е
+  DDGS: OK (2.08s)
+  DDG-HTML: OK (0.73s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.51s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.53s)
+  Wikipedia: OK (0.45s)
+
+[48/100] [Математика и Расчеты] 1000 разделено на 8
+  DDGS: OK (2.49s)
+  DDG-HTML: OK (0.69s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.00s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.36s)
+  Wikipedia: OK (1.02s)
+
+[49/100] [Математика и Расчеты] Сумма углов треугольника
+  DDGS: OK (0.54s)
+  DDG-HTML: OK (0.73s)
+  DDG-InstantAnswer: OK (0.54s)
+  DDG-SearchAssist: OK (1.89s)
+  Wikipedia: OK (0.27s)
+
+[50/100] [Математика и Расчеты] Логарифм 100 по основанию 10
+  DDGS: OK (1.85s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (2.69s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.24s)
+  Wikipedia: OK (0.51s)
+
+[51/100] [Конвертация (Валюты/Меры)] 100 долларов в евро
+  DDGS: OK (1.91s)
+  DDG-HTML: OK (0.75s)
+  DDG-InstantAnswer: OK (1.84s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.49s)
+  Wikipedia: OK (0.40s)
+
+[52/100] [Конвертация (Валюты/Меры)] Сколько км в 100 милях
+  DDGS: OK (2.66s)
+  DDG-HTML: OK (0.78s)
+  DDG-InstantAnswer: OK (1.42s)
+  DDG-SearchAssist: OK (1.18s)
+  Wikipedia: OK (0.49s)
+
+[53/100] [Конвертация (Валюты/Меры)] 10 фунтов в кг
+  DDGS: OK (1.13s)
+  DDG-HTML: OK (0.71s)
+  DDG-InstantAnswer: OK (1.82s)
+  DDG-SearchAssist: OK (1.76s)
+  Wikipedia: OK (0.84s)
+
+[54/100] [Конвертация (Валюты/Меры)] Температура 100 по Фаренгейту в Цельсиях
+  DDGS: OK (1.20s)
+  DDG-HTML: OK (0.72s)h2 connection driver error: connection reset
+
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.60s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.41s)
+  Wikipedia: OK (0.84s)
+
+[55/100] [Конвертация (Валюты/Меры)] Сколько литров в галлоне
+  DDGS: OK (1.98s)
+  DDG-HTML: OK (0.68s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.35s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.15s)
+  Wikipedia: OK (0.46s)
+
+[56/100] [Конвертация (Валюты/Меры)] 1 биткоин в гривнах
+  DDGS: OK (2.56s)
+  DDG-HTML: OK (0.82s)
+  DDG-InstantAnswer: OK (2.32s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.44s)
+  Wikipedia: OK (0.72s)
+
+[57/100] [Конвертация (Валюты/Меры)] Метры в футы
+  DDGS: OK (2.25s)
+  DDG-HTML: OK (0.85s)
+  DDG-InstantAnswer: OK (1.50s)
+  DDG-SearchAssist: OK (1.25s)
+  Wikipedia: OK (0.45s)
+
+[58/100] [Конвертация (Валюты/Меры)] Сколько грамм в унции
+  DDGS: OK (2.48s)
+  DDG-HTML: OK (0.69s)
+  DDG-InstantAnswer: OK (1.80s)
+  DDG-SearchAssist: OK (1.33s)
+  Wikipedia: OK (0.47s)
+
+[59/100] [Конвертация (Валюты/Меры)] Сколько дней в 5 годах
+  DDGS: OK (2.51s)
+  DDG-HTML: OK (0.71s)
+  DDG-InstantAnswer: OK (1.83s)
+  DDG-SearchAssist: OK (1.36s)
+  Wikipedia: OK (0.67s)
+
+[60/100] [Конвертация (Валюты/Меры)] 1 карат в граммах
+  DDGS: OK (2.63s)
+  DDG-HTML: OK (0.68s)
+  DDG-InstantAnswer: OK (1.89s)
+  DDG-SearchAssist: OK (1.97s)
+  Wikipedia: OK (0.37s)
+
+[61/100] [Культура и Искусство] Автор картины Мона Лиза
+  DDGS: OK (1.33s)
+  DDG-HTML: OK (0.95s)
+  DDG-InstantAnswer: OK (1.80s)
+  DDG-SearchAssist: OK (2.26s)
+  Wikipedia: OK (0.91s)
+
+[62/100] [Культура и Искусство] Кто написал Войну и мир
+  DDGS: OK (2.61s)
+  DDG-HTML: OK (0.81s)
+  DDG-InstantAnswer: OK (6.40s)
+  DDG-SearchAssist: OK (1.22s)
+  Wikipedia: OK (0.64s)
+
+[63/100] [Культура и Искусство] Самый кассовый фильм
+  DDGS: OK (0.65s)
+  DDG-HTML: OK (0.74s)
+  DDG-InstantAnswer: OK (0.55s)
+  DDG-SearchAssist: OK (1.89s)
+  Wikipedia: OK (0.56s)
+
+[64/100] [Культура и Искусство] В какой группе пел Курт Кобейн
+  DDGS: OK (1.73s)
+  DDG-HTML: OK (0.77s)
+  DDG-InstantAnswer: OK (2.86s)
+  DDG-SearchAssist: OK (2.54s)
+  Wikipedia: OK (0.66s)
+
+[65/100] [Культура и Искусство] Кто получил Оскар за лучшую мужскую роль 2024
+  DDGS: OK (2.58s)
+  DDG-HTML: OK (0.79s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (3.09s)
+  DDG-SearchAssist: OK (2.38s)
+  Wikipedia: OK (0.71s)
+
+[66/100] [Культура и Искусство] Где находится Лувр
+  DDGS: OK (2.04s)
+  DDG-HTML: OK (0.70s)
+  DDG-InstantAnswer: OK (1.97s)
+  DDG-SearchAssist: OK (2.80s)
+  Wikipedia: OK (0.91s)
+
+[67/100] [Культура и Искусство] Кто придумал Шерлока Холмса
+  DDGS: OK (1.55s)
+  DDG-HTML: OK (0.70s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.54s)
+  DDG-SearchAssist: OK (2.41s)
+  Wikipedia: OK (0.41s)
+
+[68/100] [Культура и Искусство] Жанр музыки джаз описание
+  DDGS: OK (2.18s)
+  DDG-HTML: OK (0.79s)
+  DDG-InstantAnswer: OK (2.54s)
+  DDG-SearchAssist: OK (2.24s)
+  Wikipedia: OK (0.48s)
+
+[69/100] [Культура и Искусство] Автор балета Лебединое озеро
+  DDGS: OK (2.82s)
+  DDG-HTML: OK (0.86s)
+  DDG-InstantAnswer: OK (1.13s)
+[DDG-SearchAssist] error sending request for url (https://search.yahoo.com/search;_ylt=XTDIL7L71OhZKYNvp2vBab1R;_ylu=OucmME9LOvvJfNV69IJ_hgU-WDdyPDHDUr0lDUfgBkSqzW4?p=%D0%90%D0%B2%D1%82%D0%BE%D1%80+%D0%B1%D0%B0%D0%BB%D0%B5%D1%82%D0%B0+%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B5+%D0%BE%D0%B7%D0%B5%D1%80%D0%BE) > operation timed out
+  DDG-SearchAssist: OK (6.35s)
+  Wikipedia: OK (0.51s)
+
+[70/100] [Культура и Искусство] Сколько струн на гитаре
+  DDGS: OK (1.95s)
+  DDG-HTML: OK (0.24s)
+  DDG-InstantAnswer: OK (2.28s)
+  DDG-SearchAssist: OK (2.40s)
+  Wikipedia: OK (0.68s)
+
+[71/100] [Бытовые вопросы] Как варить рис
+  DDGS: OK (1.52s)
+  DDG-HTML: OK (0.25s)
+  DDG-InstantAnswer: OK (2.13s)
+  DDG-SearchAssist: OK (1.33s)
+  Wikipedia: OK (0.69s)
+
+[72/100] [Бытовые вопросы] Как вывести пятно от вина
+  DDGS: OK (2.72s)
+  DDG-HTML: OK (0.24s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (2.55s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.17s)
+  Wikipedia: OK (0.65s)
+
+[73/100] [Бытовые вопросы] Срок годности яиц в холодильнике
+  DDGS: OK (2.24s)
+  DDG-HTML: OK (0.25s)
+  DDG-InstantAnswer: OK (1.36s)
+  DDG-SearchAssist: OK (2.18s)
+  Wikipedia: OK (0.98s)
+
+[74/100] [Бытовые вопросы] Как завязать галстук
+  DDGS: OK (2.32s)
+  DDG-HTML: OK (0.25s)
+  DDG-InstantAnswer: OK (1.20s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.19s)
+  Wikipedia: OK (0.62s)
+
+[75/100] [Бытовые вопросы] Чем лечить ожог
+  DDGS: OK (2.07s)
+  DDG-HTML: OK (0.25s)
+  DDG-InstantAnswer: OK (2.00s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (2.30s)
+  Wikipedia: OK (0.53s)
+
+[76/100] [Бытовые вопросы] Как почистить серебро
+  DDGS: OK (2.60s)
+  DDG-HTML: OK (0.25s)
+  DDG-InstantAnswer: OK (2.24s)
+[DDG-SearchAssist] RequestError: RequestError('error sending request for url (https://html.duckduckgo.com/html/) > connection reset')
+  DDG-SearchAssist: OK (1.88s)
+  Wikipedia: OK (0.57s)
+
+[77/100] [Бытовые вопросы] Как сделать скриншот на маке
+  DDGS: OK (10.77s)
+  DDG-HTML: OK (5.03s)
+[DDG_Instant_Answer] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-InstantAnswer: OK (7.33s)
+  DDG-SearchAssist: OK (1.77s)
+  Wikipedia: OK (1.26s)
+
+[78/100] [Бытовые вопросы] Сколько варить вкрутую яйцо
+  DDGS: OK (7.41s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (1.21s)
+  DDG-SearchAssist: OK (6.54s)
+  Wikipedia: OK (0.75s)
+
+[79/100] [Бытовые вопросы] Как работает холодильник
+  DDGS: OK (6.72s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (1.29s)
+[DDG-SearchAssist] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-SearchAssist: OK (11.23s)
+  Wikipedia: OK (0.66s)
+
+[80/100] [Бытовые вопросы] Как быстро уснуть
+  DDGS: OK (7.15s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (7.19s)
+[DDG-SearchAssist] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-SearchAssist: OK (6.45s)
+  Wikipedia: OK (0.54s)
+
+[81/100] [Сложные/Абстрактные (без быстрого ответа)] В чем смысл жизни
+  DDGS: OK (6.26s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (6.16s)
+  DDG-SearchAssist: OK (2.10s)
+  Wikipedia: OK (0.51s)
+
+[82/100] [Сложные/Абстрактные (без быстрого ответа)] Есть ли жизнь на Марсе
+  DDGS: OK (0.56s)
+  DDG-HTML: OK (5.03s)
+  DDG-InstantAnswer: OK (5.00s)
+  DDG-SearchAssist: OK (7.45s)
+  Wikipedia: OK (0.60s)
+
+[83/100] [Сложные/Абстрактные (без быстрого ответа)] Почему небо синее
+  DDGS: OK (1.27s)
+  DDG-HTML: OK (5.03s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (7.08s)
+  DDG-SearchAssist: OK (1.06s)
+  Wikipedia: OK (0.48s)
+
+[84/100] [Сложные/Абстрактные (без быстрого ответа)] Что было до Большого взрыва
+  DDGS: OK (7.17s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (7.13s)
+[DDG-SearchAssist] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-SearchAssist: OK (7.13s)
+  Wikipedia: OK (0.48s)
+
+[85/100] [Сложные/Абстрактные (без быстрого ответа)] Как стать счастливым
+  DDGS: OK (1.20s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (0.34s)
+  DDG-SearchAssist: OK (2.18s)
+  Wikipedia: OK (0.29s)
+
+[86/100] [Сложные/Абстрактные (без быстрого ответа)] Существует ли телепатия
+  DDGS: OK (7.04s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (6.21s)
+[DDG-SearchAssist] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-SearchAssist: OK (6.71s)
+  Wikipedia: OK (0.85s)
+
+[87/100] [Сложные/Абстрактные (без быстрого ответа)] Будущее искусственного интеллекта
+  DDGS: OK (6.71s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (7.19s)
+  DDG-SearchAssist: OK (1.17s)
+  Wikipedia: OK (0.80s)
+
+[88/100] [Сложные/Абстрактные (без быстрого ответа)] Почему кошки мурчат
+  DDGS: OK (7.24s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (7.18s)
+  DDG-SearchAssist: OK (6.28s)
+  Wikipedia: OK (0.57s)
+
+[89/100] [Сложные/Абстрактные (без быстрого ответа)] Кто виноват и что делать
+  DDGS: OK (7.22s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (1.58s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (7.06s)
+  Wikipedia: OK (0.67s)
+
+[90/100] [Сложные/Абстрактные (без быстрого ответа)] Как работает человеческое сознание
+  DDGS: OK (6.37s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (1.66s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.89s)
+  Wikipedia: OK (0.54s)
+
+[91/100] [Спорт] Кто выиграл ЧМ по футболу 2022
+  DDGS: OK (7.38s)
+  DDG-HTML: OK (5.03s)
+  DDG-InstantAnswer: OK (6.33s)
+  DDG-SearchAssist: OK (1.23s)
+  Wikipedia: OK (0.67s)
+
+[92/100] [Спорт] Рекорд в беге на 100 метров
+  DDGS: OK (1.90s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (6.66s)
+  DDG-SearchAssist: OK (6.22s)
+  Wikipedia: OK (0.65s)
+
+[93/100] [Спорт] Сколько игроков в баскетболе
+  DDGS: OK (1.90s)
+  DDG-HTML: OK (5.03s)
+  DDG-InstantAnswer: OK (6.76s)
+  DDG-SearchAssist: OK (6.40s)
+  Wikipedia: OK (0.66s)
+
+[94/100] [Спорт] Где проходила Олимпиада 1980
+  DDGS: OK (1.28s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (6.99s)
+[DDG-SearchAssist] error sending request for url (https://search.yahoo.com/search;_ylt=-7Hxj-8qG8eIsuvOOP1y-SL1;_ylu=tLU2Yz9E9DDTRzY4krSWCIKMs6mIxaEjcsPbv8VE_J2IXTE?p=%D0%93%D0%B4%D0%B5+%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0+%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D0%B0+1980) > operation timed out
+  DDG-SearchAssist: OK (10.95s)
+  Wikipedia: OK (0.54s)
+
+[95/100] [Спорт] Кто такой Лионель Месси
+  DDGS: OK (7.13s)
+  DDG-HTML: OK (5.02s)
+  DDG-InstantAnswer: OK (1.65s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (7.27s)
+  Wikipedia: OK (0.59s)
+
+[96/100] [Спорт] Длина марафонской дистанции
+  DDGS: OK (7.25s)
+  DDG-HTML: OK (5.03s)
+[DDG_Instant_Answer] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-InstantAnswer: OK (6.83s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.97s)
+  Wikipedia: OK (0.46s)
+
+[97/100] [Спорт] В каком году основали НБА
+  DDGS: OK (1.75s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (11.11s)
+  DDG-SearchAssist: OK (1.46s)
+  Wikipedia: OK (0.92s)
+
+[98/100] [Спорт] Самый титулованный теннисист
+  DDGS: OK (7.52s)
+  DDG-HTML: OK (5.03s)
+  DDG-InstantAnswer: OK (6.65s)
+[DDG-SearchAssist] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-SearchAssist: OK (6.63s)
+  Wikipedia: OK (0.71s)
+
+[99/100] [Спорт] Сколько таймов в футболе
+  DDGS: OK (7.23s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Connection refused (os error 111)')
+  DDG-InstantAnswer: OK (6.52s)
+  DDG-SearchAssist: OK (1.45s)
+  Wikipedia: OK (0.80s)
+
+[100/100] [Спорт] Что такое оффсайд простыми словами
+  DDGS: OK (11.22s)
+  DDG-HTML: OK (5.02s)
+[DDG_Instant_Answer] error sending request for url (https://html.duckduckgo.com/html/) > operation timed out
+  DDG-InstantAnswer: OK (7.28s)
+  DDG-SearchAssist: OK (1.48s)
+  Wikipedia: OK (0.92s)
+
+======================================================================
+Saved to benchmark_results.csv
+
+STATISTICS:
+
+DDGS:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 58/100
+  Avg time: 3.13s
+
+DDG-HTML:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 68/100
+  Avg time: 1.74s
+
+DDG-InstantAnswer:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 62/100
+  Avg time: 3.01s
+
+DDG-SearchAssist:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 62/100
+  Avg time: 3.16s
+
+Wikipedia:
+  OK: 100/100 (100.0%)
+  Non-empty answers: 5/100
+  Avg time: 0.67s

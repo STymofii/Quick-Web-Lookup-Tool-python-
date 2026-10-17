@@ -1,0 +1,39 @@
+Queries: 100
+Engines: 5
+
+=== Per-engine coverage ===
+  DDG-HTML                   68/100  ( 68.0%)
+  DDG-InstantAnswer          62/100  ( 62.0%)
+  DDG-SearchAssist           62/100  ( 62.0%)
+  DDGS                       58/100  ( 58.0%)
+  Wikipedia                   5/100  (  5.0%)
+
+=== Union coverage ===
+  At least one engine answered: 96/100 (96.0%)
+  Nobody answered:              4/100 (4.0%)
+
+=== Unique contributions (queries ONLY this engine answered) ===
+  DDGS                      2
+  DDG-HTML                  6
+  DDG-InstantAnswer         6
+  DDG-SearchAssist          5
+
+=== Pairwise overlap (both engines returned non-empty) ===
+  Top pairs by union coverage:
+    DDG-HTML + DDG-InstantAnswer: union 87/100, overlap 43, jaccard 49%
+    DDG-HTML + DDG-SearchAssist: union 86/100, overlap 44, jaccard 51%
+    DDGS + DDG-HTML: union 83/100, overlap 43, jaccard 52%
+    DDG-InstantAnswer + DDG-SearchAssist: union 81/100, overlap 43, jaccard 53%
+    DDGS + DDG-InstantAnswer: union 81/100, overlap 39, jaccard 48%
+    DDGS + DDG-SearchAssist: union 79/100, overlap 41, jaccard 52%
+    DDG-HTML + Wikipedia: union 69/100, overlap 4, jaccard 6%
+    DDG-SearchAssist + Wikipedia: union 62/100, overlap 5, jaccard 8%
+    DDG-InstantAnswer + Wikipedia: union 62/100, overlap 5, jaccard 8%
+    DDGS + Wikipedia: union 58/100, overlap 5, jaccard 9%
+
+=== Best combos (union > best single engine) ===
+    DDG-HTML + DDG-InstantAnswer: union 87 (+19 over best single) ✅
+    DDG-HTML + DDG-SearchAssist: union 86 (+18 over best single) ✅
+    DDGS + DDG-HTML: union 83 (+15 over best single) ✅
+    DDG-InstantAnswer + DDG-SearchAssist: union 81 (+13 over best single) ✅
+    DDGS + DDG-InstantAnswer: union 81 (+13 over best single) ✅
